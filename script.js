@@ -318,7 +318,7 @@ const kombis = {
       "🚑 Notruf bei Bewusstlosigkeit.",
       "🛑 Lebensgefahr auch bei kleinen Mengen."
     ]
-  }
+  },
   "LSD+GHB": {
     level: "danger",
     description: "💀 GHB kann LSD-Trips abrupt abbrechen oder zu gefährlichem Kontrollverlust führen.",
@@ -552,7 +552,7 @@ const kombis = {
       "🧑‍🤝‍🧑 Sitter empfehlenswert.",
       "❤️ Bei Herzproblemen meiden."
     ]
-  }
+  },
 
 };
 
