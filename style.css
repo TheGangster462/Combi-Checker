@@ -1,14 +1,64 @@
-body { font-family: 'Segoe UI', sans-serif; background: #111; color: #f4f4f4; margin: 0; padding: 0;}
-header { background: #1c1c1c; padding: 1rem; text-align: center;}
-nav { margin-top: 0.5rem;}
-nav a, nav button { margin: 0 0.5rem; background: none; border: none; color: #eee; font-size: 1rem; cursor: pointer;}
-main { padding: 2rem; text-align: center;}
-select, button { margin: 0.5rem; padding: 0.6rem; font-size: 1rem;}
-.info-box { margin-top: 1.5rem; padding: 1rem; border-radius: 8px;}
-.safe { background: #2e7d32; color: white;}
-.caution { background: #fbc02d; color: black;}
-.danger { background: #ef5350; color: white;}
-.deadly { background: black; color: white;}
-.light body { background: #f4f4f4; color: #222;}
-.light header { background: #f9f9f9;}
-.light nav a, .light nav button { color: #222;}
+body {
+  font-family: 'Segoe UI Emoji', 'Segoe UI', 'Apple Color Emoji', 'Noto Color Emoji', 'Arial', sans-serif;
+  background: #111;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #1c1c1c;
+  padding: 1rem;
+  text-align: center;
+}
+nav {
+  margin-top: 0.5rem;
+}
+nav a, nav button {
+  margin: 0 0.5rem;
+  background: none;
+  border: none;
+  color: #eee;
+  font-size: 1rem;
+  cursor: pointer;
+}
+main {
+  padding: 2rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 2rem auto;
+  background: rgba(30,30,30,0.9);
+  border-radius: 16px;
+  box-shadow: 0 0 16px #0003;
+}
+select, button {
+  margin: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #191919;
+  color: #f4f4f4;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #222;
+}
+.info-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #0002;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.safe { background: #2e7d32; color: white; }
+.caution { background: #fbc02d; color: black; }
+.danger { background: #ef5350; color: white; }
+.deadly { background: black; color: white; }
+.light body { background: #f4f4f4; color: #222; }
+.light header { background: #f9f9f9; }
+.light nav a, .light nav button { color: #222; }
+@media (max-width: 600px) {
+  main { padding: 1rem; max-width: 98vw; }
+  .info-box { font-size: 1rem; }
+}
