@@ -752,7 +752,7 @@ const kombis = {
       "🎧 Ruhige Musik bereitstellen."
     ]
   }
-
+};
 
 function fillSelects() {
   const s1 = document.getElementById("sub1");
