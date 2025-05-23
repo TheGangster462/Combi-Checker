@@ -751,7 +751,80 @@ const kombis = {
       "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
       "🎧 Ruhige Musik bereitstellen."
     ]
-  }
+  },
+  "Alkohol+Tramadol": {
+  level: "deadly",
+  description: "☠️ Krampfanfälle und Atemstillstand möglich – Lebensgefahr!",
+  tips: [
+    "❌ Nie kombinieren.",
+    "🚑 Notarzt rufen bei Problemen.",
+    "🛑 Sofort Konsum stoppen bei Symptomen."
+  ]
+},
+"Alkohol+Tilidin": {
+  level: "danger",
+  description: "😵 Beide Substanzen belasten Atmung und Bewusstsein. Unfallgefahr, Ohnmacht und Atemstillstand möglich.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Niemals alleine.",
+    "🚑 Notruf bei Bewusstlosigkeit."
+  ]
+},
+"Tramadol+Benzodiazepine": {
+  level: "deadly",
+  description: "☠️ Stark erhöhte Gefahr für Atemdepression, Koma und Tod.",
+  tips: [
+    "❌ Nie kombinieren.",
+    "🚑 Notarzt rufen bei Bewusstlosigkeit.",
+    "🛑 Keine Nachdosierung."
+  ]
+},
+"Tramadol+GHB": {
+  level: "deadly",
+  description: "☠️ Extrem gefährliche Kombination – beides wirkt atemdepressiv, hohes Risiko für Atemstillstand.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🚑 Notruf bei Atemproblemen.",
+    "🧑‍🤝‍🧑 Niemals alleine konsumieren."
+  ]
+},
+"Tilidin+Benzodiazepine": {
+  level: "deadly",
+  description: "☠️ Starke atemdepressive Wirkung möglich, Lebensgefahr.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Niemals alleine.",
+    "🚑 Sofort Notruf wählen bei Bewusstlosigkeit."
+  ]
+},
+"Tilidin+GHB": {
+  level: "deadly",
+  description: "☠️ GHB und Tilidin wirken zusammen extrem atemdepressiv. Atemstillstand und Tod möglich.",
+  tips: [
+    "❌ Nie gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter muss nüchtern sein.",
+    "🚑 Notruf bei Problemen."
+  ]
+},
+// Optional weitere Varianten:
+"Tramadol+Tilidin": {
+  level: "danger",
+  description: "⚠️ Zwei Opioide: erhöhtes Risiko für Nebenwirkungen, Atemprobleme und Überdosierung.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Niemals alleine.",
+    "🚑 Bei Atemproblemen sofort Notruf."
+  ]
+},
+"Tramadol+MDMA": {
+  level: "danger",
+  description: "⚡️ Serotonin-Syndrom möglich – stark erhöhtes Risiko für Krampfanfälle.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🚑 Notruf bei Fieber, Verwirrtheit, Muskelzucken.",
+    "🧑‍🤝‍🧑 Immer mit nüchternem Sitter."
+  ]
+}
 };
 
 function fillSelects() {
