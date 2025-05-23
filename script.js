@@ -319,7 +319,241 @@ const kombis = {
       "🛑 Lebensgefahr auch bei kleinen Mengen."
     ]
   }
-  // Du kannst hier beliebig viele weitere Paare nach dem selben Schema ergänzen!
+  "LSD+GHB": {
+    level: "danger",
+    description: "💀 GHB kann LSD-Trips abrupt abbrechen oder zu gefährlichem Kontrollverlust führen.",
+    tips: [
+      "🚫 Keine Mischung empfohlen.",
+      "😵 Überdosierungsgefahr bei beiden Substanzen.",
+      "🧑‍🤝‍🧑 Sitter erforderlich."
+    ]
+  },
+  "LSD+Tramadol": {
+    level: "danger",
+    description: "⚡ Tramadol kann LSD-Wirkung abschwächen, aber auch zu Krampfanfällen beitragen.",
+    tips: [
+      "❌ Bei Krampfanfällen Notruf wählen.",
+      "🧑‍⚕️ Nicht kombinieren bei Epilepsie.",
+      "😴 Beide einzeln konsumieren."
+    ]
+  },
+  "LSD+Amphetamin": {
+    level: "danger",
+    description: "💣 Sehr starke Überstimulation – Angst/Panik, Kreislaufgefahr.",
+    tips: [
+      "😬 Nicht bei psychischer Instabilität.",
+      "🧑‍🤝‍🧑 Sitter dringend empfohlen.",
+      "⏳ Besser nicht kombinieren!"
+    ]
+  },
+  "LSD+Kokain": {
+    level: "danger",
+    description: "⚠️ Unberechenbare Wirkung – erhöhtes Psychoserisiko, Kreislaufprobleme.",
+    tips: [
+      "🧑‍⚕️ Kein Nachlegen!",
+      "💤 Ausreichend Ruhe einplanen.",
+      "🚫 Nicht für Einsteiger."
+    ]
+  },
+  "LSD+Tilidin": {
+    level: "danger",
+    description: "😵 Kann zu starker Sedierung und Kontrollverlust führen.",
+    tips: [
+      "🛑 Nicht in Kombination konsumieren.",
+      "🛏️ Ruhige Umgebung wichtig.",
+      "🧑‍🤝‍🧑 Sitter ratsam."
+    ]
+  },
+  "LSD+DMT": {
+    level: "danger",
+    description: "🚀 Sehr intensive, extrem kurze, aber heftige Erfahrung.",
+    tips: [
+      "⚠️ Nur für Profis.",
+      "🧑‍🤝‍🧑 Nie alleine.",
+      "⏳ Viel Zeit zur Erholung."
+    ]
+  },
+  "LSD+Mescalin": {
+    level: "danger",
+    description: "🌈 Massive psychedelische Synergie. Überwältigend und schwer steuerbar.",
+    tips: [
+      "👀 Sehr niedrige Dosierung.",
+      "🧑‍🤝‍🧑 Trip-Sitter unerlässlich.",
+      "🛑 Viel Erholungszeit einkalkulieren."
+    ]
+  },
+  "MDMA+GHB": {
+    level: "deadly",
+    description: "☠️ Risiko für Atemdepression, Koma und Tod.",
+    tips: [
+      "❌ Nie gemeinsam konsumieren.",
+      "🚑 Sofort Notruf bei Bewusstlosigkeit.",
+      "🧑‍🤝‍🧑 Sitter muss nüchtern sein."
+    ]
+  },
+  "MDMA+Tramadol": {
+    level: "danger",
+    description: "⚡ Krampfanfall- und Überhitzungsgefahr.",
+    tips: [
+      "❌ Kombination meiden.",
+      "🧑‍⚕️ Sofort Hilfe bei Symptomen.",
+      "🛑 Auf Warnsignale achten."
+    ]
+  },
+  "MDMA+Mirtazapin": {
+    level: "caution",
+    description: "⬇️ Mirtazapin schwächt MDMA stark ab.",
+    tips: [
+      "🧑‍⚕️ Kein Nachlegen.",
+      "😶 Trip kann ganz anders ausfallen.",
+      "🛑 Keine Erwartung an typisches MDMA-Feeling."
+    ]
+  },
+  "MDMA+Amphetamin": {
+    level: "danger",
+    description: "💓 Herzrasen, Überhitzung und Krampfanfälle möglich.",
+    tips: [
+      "🧑‍⚕️ Nicht kombinieren!",
+      "💧 Viel trinken.",
+      "🚑 Notruf bei Symptomen."
+    ]
+  },
+  "MDMA+1V-LSD": {
+    level: "caution",
+    description: "🌈 'Candyflip' Feeling. Kann sehr euphorisch, aber auch überfordernd sein.",
+    tips: [
+      "⭐ Immer niedrige Dosierungen.",
+      "🧑‍🤝‍🧑 Niemals alleine nehmen.",
+      "💧 Viel Wasser trinken."
+    ]
+  },
+  "MDMA+HHC": {
+    level: "caution",
+    description: "🌱 Kann Euphorie, aber auch Angst/Herzrasen verstärken. Risiko ähnlich wie THC.",
+    tips: [
+      "🧊 Erst MDMA, dann wenig HHC.",
+      "🧑‍🤝‍🧑 Nicht alleine.",
+      "😌 Bei Unruhe: entspannen."
+    ]
+  },
+  "MDMA+Diazepam": {
+    level: "caution",
+    description: "😴 Kann MDMA-Trip abrupt beenden, aber auch Atemdepression verursachen.",
+    tips: [
+      "🧑‍⚕️ Diazepam nur bei extremem Bad Trip und unter Aufsicht.",
+      "❌ Nicht zur Party kombinieren.",
+      "💤 Wirkung stark dämpfend."
+    ]
+  },
+  "MDMA+2C-B": {
+    level: "danger",
+    description: "🎢 Sehr intensiver, chaotischer Trip möglich – Herzbelastung, Kontrollverlust.",
+    tips: [
+      "🔎 Kleine Dosierungen.",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "🚫 Nicht nachlegen."
+    ]
+  },
+  "MDMA+Ketamin": {
+    level: "caution",
+    description: "🌀 Wirkt stark sedierend, kann Trip verändern.",
+    tips: [
+      "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+      "⏳ Dosis gering halten.",
+      "🛌 Ruhige Umgebung."
+    ]
+  },
+  "MDMA+4-MMC": {
+    level: "danger",
+    description: "⚡ Extreme Stimulation, Herz- und Kreislaufgefahr.",
+    tips: [
+      "❌ Nicht gemeinsam konsumieren.",
+      "🧑‍⚕️ Pulskontrolle.",
+      "🚑 Hilfe holen bei Symptomen."
+    ]
+  },
+  "THC+GHB": {
+    level: "danger",
+    description: "😵 Kann zu sehr starker Sedierung führen, Übelkeit & Blackouts möglich.",
+    tips: [
+      "🛑 Keine gemeinsame Einnahme.",
+      "🧑‍🤝‍🧑 Begleitperson empfehlenswert.",
+      "🛏️ Liegenbleiben im Notfall."
+    ]
+  },
+  "THC+Diazepam": {
+    level: "caution",
+    description: "💤 Wirkt stark beruhigend, aber auch gefährlich sedierend.",
+    tips: [
+      "🛏️ Nur in ruhiger Umgebung.",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "❌ Nicht bei Aktivitäten."
+    ]
+  },
+  "THC+4-MMC": {
+    level: "caution",
+    description: "🌪️ Wirkung kaum vorhersagbar, teils stimulierend, teils sedierend.",
+    tips: [
+      "⏳ Langsam vorantasten.",
+      "🧑‍🤝‍🧑 Nicht alleine.",
+      "😌 Sofort bei Unwohlsein abbrechen."
+    ]
+  },
+  "THC+JWH-018": {
+    level: "danger",
+    description: "⚠️ Synthetisches Cannabinoid (JWH-018) kann mit THC zusammen zu extremen Psychosen führen.",
+    tips: [
+      "❌ Kombination meiden.",
+      "🧑‍🤝‍🧑 Sitter erforderlich.",
+      "🚑 Bei starken Nebenwirkungen Hilfe holen."
+    ]
+  },
+  "Ritalin+Alkohol": {
+    level: "danger",
+    description: "💊🍻 Erhöhtes Risiko für Herzrasen, Kontrollverlust und Suchtverhalten.",
+    tips: [
+      "⏳ Zeitlich trennen!",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "🚑 Bei Herzbeschwerden sofort Hilfe."
+    ]
+  },
+  "Ritalin+GHB": {
+    level: "danger",
+    description: "❗️ Entgegengesetzte Wirkung, starke Belastung für das zentrale Nervensystem.",
+    tips: [
+      "🧑‍🤝‍🧑 Niemals alleine.",
+      "💧 Sehr niedrig dosieren (am besten nicht kombinieren).",
+      "🚑 Bei Atemproblemen sofort Notruf."
+    ]
+  },
+  "Ritalin+MDMA": {
+    level: "danger",
+    description: "🔥 Extreme Kreislaufbelastung, Überhitzungs- und Infarktrisiko.",
+    tips: [
+      "❌ Nicht kombinieren.",
+      "🩺 Puls/Körpertemperatur beobachten.",
+      "🚑 Bei Beschwerden sofort Hilfe."
+    ]
+  },
+  "Ritalin+Amphetamin": {
+    level: "danger",
+    description: "💊💥 Zwei Stimulanzien – sehr hohe Herz- und Suchtgefahr.",
+    tips: [
+      "⏳ Einzelkonsum bevorzugen.",
+      "🧑‍🤝‍🧑 Sitter empfohlen.",
+      "🚑 Bei Überhitzung/Kollaps Notruf."
+    ]
+  },
+  "Ritalin+THC": {
+    level: "danger",
+    description: "😰 Herzrasen, Unruhe und Panik möglich.",
+    tips: [
+      "⏳ Sehr langsam dosieren.",
+      "🧑‍🤝‍🧑 Sitter empfehlenswert.",
+      "❤️ Bei Herzproblemen meiden."
+    ]
+  }
+
 };
 
 
