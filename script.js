@@ -554,7 +554,204 @@ const kombis = {
     ]
   },
 
-};
+  "3-MMC+Alkohol": {
+    level: "danger",
+    description: "🍸 Erhöhtes Risiko für Herzrasen, Dehydration und Kontrollverlust.",
+    tips: [
+      "💧 Viel trinken, aber kein Alkohol nachlegen.",
+      "🧑‍🤝‍🧑 Sitter empfehlenswert.",
+      "🚑 Bei Unruhe oder Herzproblemen Notruf."
+    ]
+  },
+  "3-MMC+THC": {
+    level: "caution",
+    description: "😬 Kann Nervosität, Paranoia oder Herzrasen verstärken.",
+    tips: [
+      "🌬️ Sehr langsam dosieren.",
+      "🧑‍🤝‍🧑 Nicht allein konsumieren.",
+      "😌 Bei Unruhe: Ruhe bewahren, ablenken."
+    ]
+  },
+  "3-MMC+MDMA": {
+    level: "danger",
+    description: "💥 Extreme Stimulation, hohe Belastung für Herz und Psyche.",
+    tips: [
+      "🚫 Nicht gemeinsam konsumieren.",
+      "🧑‍🤝‍🧑 Immer Sitter dabei.",
+      "🚑 Sofort Hilfe bei Symptomen."
+    ]
+  },
+  "3-MMC+Ketamin": {
+    level: "danger",
+    description: "🌀 Kann Wirkung sehr verändern – Gefahr von Verwirrtheit, Kreislaufproblemen.",
+    tips: [
+      "⏳ Nur mit Pausen.",
+      "🧑‍🤝‍🧑 Nicht alleine.",
+      "🛏️ Ruhiger Rückzugsort."
+    ]
+  },
+  "3-MMC+GHB": {
+    level: "deadly",
+    description: "☠️ Extreme Belastung für das zentrale Nervensystem, Atemstillstand möglich.",
+    tips: [
+      "🚫 Niemals kombinieren!",
+      "🚑 Notruf bei Bewusstlosigkeit.",
+      "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+    ]
+  },
+  "4-MMC+Alkohol": {
+    level: "danger",
+    description: "🍷 Erhöht Enthemmung und Herzbelastung, Gefahr von Überhitzung und Kontrollverlust.",
+    tips: [
+      "💧 Viel Wasser trinken.",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "🚑 Bei Symptomen sofort Hilfe holen."
+    ]
+  },
+  "4-MMC+THC": {
+    level: "caution",
+    description: "😳 Kann Paranoia oder starke Euphorie verstärken, individuell sehr unterschiedlich.",
+    tips: [
+      "⚖️ Kleine Dosen.",
+      "🧑‍🤝‍🧑 Nie alleine.",
+      "🚫 Nicht während Peak kombinieren."
+    ]
+  },
+  "4-MMC+MDMA": {
+    level: "danger",
+    description: "⚡️ Beide wirken sehr stark stimulierend – hohe Überhitzungs- und Krampfgefahr.",
+    tips: [
+      "❌ Nie kombinieren.",
+      "🧑‍⚕️ Puls und Temperatur überwachen.",
+      "🚑 Bei Krämpfen/Herzrasen sofort Notruf."
+    ]
+  },
+  "4-MMC+Ketamin": {
+    level: "danger",
+    description: "😵 Dissoziation und Überstimulation möglich, Verwirrtheit.",
+    tips: [
+      "🛏️ Ruhige Umgebung.",
+      "🧑‍🤝‍🧑 Nicht allein konsumieren.",
+      "⏳ Erst Wirkung einer Substanz abwarten."
+    ]
+  },
+  "4-MMC+GHB": {
+    level: "deadly",
+    description: "☠️ Lebensgefährliche Kombination – Atemdepression möglich.",
+    tips: [
+      "🚫 Nie gemeinsam konsumieren.",
+      "🚑 Notruf bei Bewusstlosigkeit.",
+      "🧑‍🤝‍🧑 Sitter MUSS nüchtern bleiben."
+    ]
+  },
+  "JWH-018+THC": {
+    level: "danger",
+    description: "🚩 Synthetische Cannabinoide können mit THC zu Psychosen und Kontrollverlust führen.",
+    tips: [
+      "⚖️ Winzige Dosierung.",
+      "🧑‍🤝‍🧑 Niemals alleine.",
+      "🚑 Bei Herzrasen, Angst: Hilfe holen."
+    ]
+  },
+  "JWH-018+Alkohol": {
+    level: "danger",
+    description: "🍶 Gefahr von Blackouts, extremer Übelkeit und Psychosen.",
+    tips: [
+      "🛏️ Nur zu Hause, nie unterwegs.",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "🚑 Bei Kollaps oder Atemproblemen sofort Notruf."
+    ]
+  },
+  "JWH-018+CBD": {
+    level: "caution",
+    description: "🌱 CBD kann die Wirkung von JWH-018 leicht abmildern, aber nicht aufheben.",
+    tips: [
+      "🧑‍🤝‍🧑 Nicht zu viel konsumieren.",
+      "😌 Bei Überdosierung versuchen, zu entspannen.",
+      "📞 Hilfe rufen bei starken Symptomen."
+    ]
+  },
+  "JWH-018+MDMA": {
+    level: "danger",
+    description: "⚠️ Sehr unberechenbar, Gefahr für Kreislauf und Psyche.",
+    tips: [
+      "🧑‍🤝‍🧑 Sitter unbedingt erforderlich.",
+      "🔬 Nie hohe Dosierungen.",
+      "🚑 Bei Psychosezeichen Notruf."
+    ]
+  },
+  "HHC+THC": {
+    level: "caution",
+    description: "🍃 Beide wirken ähnlich, können sich verstärken. Stärkere Sedierung und Verwirrtheit möglich.",
+    tips: [
+      "⚖️ Kleine Mengen probieren.",
+      "🧑‍🤝‍🧑 Nie alleine.",
+      "🚑 Hilfe holen bei Kontrollverlust."
+    ]
+  },
+  "HHC+Alkohol": {
+    level: "danger",
+    description: "🍸 Gesteigerte Müdigkeit, Kontrollverlust, Blackout möglich.",
+    tips: [
+      "🛏️ Liegenbleiben.",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "🚑 Bei Atemproblemen sofort Hilfe."
+    ]
+  },
+  "HHC+MDMA": {
+    level: "caution",
+    description: "😊 Kann Euphorie, aber auch starke Müdigkeit, Übelkeit und Herzrasen auslösen.",
+    tips: [
+      "🧑‍🤝‍🧑 Nicht alleine.",
+      "⚖️ Niedrige Dosis.",
+      "🚑 Hilfe bei Problemen."
+    ]
+  },
+  "HHC+CBD": {
+    level: "safe",
+    description: "🌱 Kann beruhigend wirken, eignet sich zum Herunterkommen.",
+    tips: [
+      "💤 Nicht zu viel – sonst müde.",
+      "🧑‍🤝‍🧑 Sitter hilfreich bei Unsicherheit.",
+      "🚗 Kein Auto fahren."
+    ]
+  },
+  "MDA+MDMA": {
+    level: "danger",
+    description: "🔥 Extreme Stimulation, Gefahr für Herz und Psyche.",
+    tips: [
+      "🧑‍⚕️ Beide Substanzen einzeln bevorzugen.",
+      "💧 Viel trinken.",
+      "🚑 Hilfe holen bei Beschwerden."
+    ]
+  },
+  "MDA+2C-B": {
+    level: "danger",
+    description: "🎢 Sehr intensive psychedelische Erfahrung, kaum steuerbar.",
+    tips: [
+      "⚖️ Kleine Dosierung.",
+      "🧑‍🤝‍🧑 Nie ohne Sitter.",
+      "🚑 Hilfe holen bei Kontrollverlust."
+    ]
+  },
+  "DMT+Alkohol": {
+    level: "danger",
+    description: "😵 Alkohol kann die DMT-Wirkung stark dämpfen oder unberechenbar machen.",
+    tips: [
+      "🛏️ Nicht kombinieren.",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "⚠️ Ruhige Umgebung wählen."
+    ]
+  },
+  "DMT+THC": {
+    level: "caution",
+    description: "🌈 THC kann DMT-Visuals verstärken und die Psyche destabilisieren.",
+    tips: [
+      "⚖️ Vorsichtig dosieren.",
+      "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+      "🎧 Ruhige Musik bereitstellen."
+    ]
+  }
 
 
 function fillSelects() {
