@@ -4,43 +4,324 @@ const substances = [
 ];
 
 const kombis = {
-  "LSD+Alkohol": {level:"danger",description:"LSD und Alkohol können psychische Instabilität und Kontrollverlust auslösen.",tips:["Nie alleine konsumieren.","Alkohol erst nach dem Trip, nie im Peak.","Set & Setting beachten."]},
-  "LSD+THC": {level:"danger",description:"THC verstärkt LSD-Trips oft enorm (Angst, Panik, Kontrollverlust möglich).",tips:["THC erst nach dem LSD-Peak (wenn überhaupt).","Dosis vorsichtig wählen.","Bei Unruhe: ablenken, beruhigen, Musik hören."]},
-  "LSD+MDMA": {level:"caution",description:"Candyflip: Euphorisch, aber riskant, Kreislauf- und Psychoserisiko.",tips:["Niedrig dosieren.","Nicht alleine nehmen.","Auf Herzbelastung achten."]},
-  "LSD+Ketamin": {level:"danger",description:"Sehr intensive Dissoziation möglich. Psychose-Risiko erhöht.",tips:["Nur erfahrene User.","Nicht in unsicherer Umgebung.","Dosis streng kontrollieren."]},
-  "LSD+2C-B": {level:"danger",description:"Starke psychedelische Synergie, aber kaum vorhersagbar. Psychosen möglich.",tips:["Niedrig dosieren.","Trip-Sitter dabei haben.","Erholungszeit einplanen."]},
-  "LSD+Mirtazapin": {level:"caution",description:"Mirtazapin kann LSD-Wirkung dämpfen oder unberechenbar machen.",tips:["Auf veränderte Wirkung achten.","Kein Nachlegen.","Keine Erwartung an typischen LSD-Trip."]},
-  "LSD+Ritalin": {level:"danger",description:"Erhöhtes Risiko für Angst, Herzrasen und Kontrollverlust.",tips:["Niedrig dosieren.","Nicht kombinieren bei Herzproblemen.","Nicht ohne Sitter."]},
-  "Alkohol+THC": {level:"danger",description:"Kann starke Übelkeit („Greening Out“), Schwindel und Kontrollverlust auslösen.",tips:["Wenig THC nach Alkohol, nie umgekehrt.","Sicheren Rückzugsort vorbereiten.","Langsam dosieren."]},
-  "Alkohol+GHB": {level:"deadly",description:"Höchste Lebensgefahr! Atemstillstand und Tod möglich.",tips:["Kombination absolut meiden.","Notruf wählen bei Atemaussetzern.","Nicht experimentieren!"]},
-  "Alkohol+Benzodiazepine": {level:"deadly",description:"Beides wirkt atemdepressiv – Lebensgefahr!",tips:["Niemals mischen.","Notruf wählen bei Bewusstlosigkeit.","Unbedingt Abstand halten!"]},
-  "Alkohol+Ketamin": {level:"danger",description:"Kombination verstärkt Koordinationsstörungen, Unfall- und Erstickungsgefahr.",tips:["Nur eine Substanz pro Session.","Nicht bei Vorerkrankungen.","Auf Freunde achten lassen."]},
-  "Alkohol+MDMA": {level:"caution",description:"Alkohol entzieht Wasser, MDMA entwässert – starke Belastung für Kreislauf und Organe.",tips:["Sehr viel Wasser trinken.","Nicht exzessiv konsumieren.","Herz/Kreislauf auf Symptome achten."]},
-  "Alkohol+Kokain": {level:"danger",description:"Bildet im Körper das besonders toxische „Cocaethylen“ – erhöhtes Herzinfarkt- und Krampfrisiko.",tips:["Kombi möglichst vermeiden.","Kleine Dosen, nicht nachlegen.","Blutdruck überwachen."]},
-  "Alkohol+2C-B": {level:"danger",description:"Verstärkte Wahrnehmungsverzerrung, Übelkeit und Kontrollverlust möglich.",tips:["Langsam dosieren.","Nicht in der Öffentlichkeit.","Sichere Umgebung."]},
-  "Alkohol+Amphetamin": {level:"danger",description:"Erhöht das Risiko für Herzüberlastung, Aggression und Kontrollverlust.",tips:["Beides nie hoch dosieren.","Nicht nachlegen.","Auf Kreislaufprobleme achten."]},
-  "Alkohol+Tramadol": {level:"deadly",description:"Atemdepression, Krampfanfälle, Lebensgefahr.",tips:["Nie kombinieren.","Bei Atemproblemen Notruf wählen.","Nicht experimentieren."]},
-  "Alkohol+MDPV": {level:"deadly",description:"Beide Stoffe extrem toxisch für Leber, Herz und Psyche.",tips:["Niemals kombinieren.","Sofort Hilfe holen bei Symptomen.","Kein Nachlegen!"]},
-  "THC+CBD": {level:"safe",description:"CBD kann unangenehme Wirkungen von THC dämpfen.",tips:["CBD als „Notbremse“ bei Überdosierung von THC.","Vorsicht: hohe CBD-Dosen können auch müde machen."]},
-  "THC+Ritalin": {level:"danger",description:"Herzrasen, Panik und starke Unruhe möglich.",tips:["Nur in sehr niedriger Dosierung testen.","Nicht bei Herzproblemen.","Bei Panik: Ruhe bewahren, Wasser trinken."]},
-  "THC+1V-LSD": {level:"danger",description:"Verstärkung und Verlängerung des LSD-Trips möglich, mit Risiken für Psyche.",tips:["Niedrige Dosierung wählen.","Nie zum Trip-Ende nachlegen.","Set & Setting beachten."]},
-  "THC+Ketamin": {level:"danger",description:"Kann Dissoziation und Realitätsverlust verstärken.",tips:["Langsam und einzeln dosieren.","Auf sichere Umgebung achten.","Nicht alleine konsumieren."]},
-  "THC+MDMA": {level:"caution",description:"Kann Euphorie, aber auch Angst und Herzrasen verstärken.",tips:["Erst MDMA, später optional sehr wenig THC.","Nie bei psychischer Instabilität.","Nicht nachlegen."]},
-  "THC+2C-B": {level:"caution",description:"Kann Wirkung intensivieren, manchmal „lustig“, aber schwer vorhersagbar.",tips:["Wenig THC und nicht am Peak.","Ungewohnte Wahrnehmungen möglich.","Nicht in Öffentlichkeit testen."]},
-  "THC+Mirtazapin": {level:"caution",description:"Kann starke Müdigkeit, Hunger und Sedierung hervorrufen.",tips:["Nicht bei Antriebslosigkeit kombinieren.","Nicht bei Fahrten/Beruf.","Sicheren Rückzugsort wählen."]},
-  "THC+Amphetamin": {level:"danger",description:"Kann Herzrasen, Angst, Paranoia auslösen.",tips:["Niedrige Dosierung, möglichst nicht mischen.","Nicht bei Angstneigung.","Puls kontrollieren."]},
-  "THC+Kokain": {level:"danger",description:"Kann Panik, Unruhe und Kreislaufprobleme auslösen.",tips:["Sehr vorsichtig dosieren.","Nicht kombinieren, wenn bereits Herzrasen.","Nüchterne Begleitperson ratsam."]},
-  "THC+Tramadol": {level:"caution",description:"Kann Schläfrigkeit und Koordinationsprobleme verstärken.",tips:["Langsam dosieren.","Nicht im Alltag.","Auf Überdosis achten."]},
-  "MDMA+Kokain": {level:"deadly",description:"Extreme Belastung für Herz und Kreislauf, Gefahr für Infarkt und Schlaganfall.",tips:["Kombination strikt meiden.","Bei Symptomen sofort Notarzt rufen.","Nicht nachlegen!"]},
-  "MDMA+Alkohol": {level:"caution",description:"Erhöhtes Risiko für Dehydration und Kreislaufprobleme.",tips:["Viel Wasser trinken.","Nicht nachlegen.","Auf Kreislaufsymptome achten."]},
-  "MDMA+Ritalin": {level:"danger",description:"Kombiniert starke Stimulanzien – Risiko für Herzprobleme und Überhitzung.",tips:["Nicht kombinieren!","Nur eine Substanz pro Session.","Notarzt rufen bei Unwohlsein."]},
-  "MDMA+Ketamin": {level:"caution",description:"Kann Wirkung stark verändern und sedieren.",tips:["Sehr vorsichtig dosieren.","Nicht alleine konsumieren.","Erst Ketamin nach MDMA, nie umgekehrt."]},
-  "MDMA+2C-B": {level:"danger",description:"Sehr intensive, aber oft chaotische Trips. Herzbelastung, Kontrollverlust.",tips:["Niedrige Dosierung.","Nie nachlegen.","Sitter empfehlenswert."]},
-  "MDMA+Mirtazapin": {level:"caution",description:"Mirtazapin schwächt MDMA-Wirkung und kann sie verzerren.",tips:["Nicht spontan absetzen.","Erwarte keine typische MDMA-Wirkung.","Keine zusätzliche Dosis."]},
-  "MDMA+Amphetamin": {level:"danger",description:"Erhöht das Risiko für Herz-Kreislauf-Komplikationen.",tips:["Niedrige Dosis, nicht kombinieren.","Nie nachlegen.","Blutdruck kontrollieren."]},
-  "MDMA+Tramadol": {level:"danger",description:"Krampfanfall- und Überhitzungsgefahr.",tips:["Nicht kombinieren.","Sofort Notarzt bei Symptomen.","Auf Warnsignale achten."]},
-  "MDMA+GHB": {level:"deadly",description:"Lebensgefährlich – Atemstillstand und Koma möglich.",tips:["Nie kombinieren.","Sofort Notruf bei Bewusstlosigkeit.","Vorsicht bei Überdosierung!"]}
+  "LSD+MDMA": {
+    level: "caution",
+    description: "🌈 'Candyflip': Intensiv, aber riskant. Kann zu Herzrasen, Kreislaufproblemen und Überforderung führen.",
+    tips: [
+      "⭐ Immer niedrige Dosierungen wählen.",
+      "👀 Niemals alleine konsumieren.",
+      "💧 Viel Wasser trinken und Pausen machen."
+    ]
+  },
+  "LSD+Alkohol": {
+    level: "danger",
+    description: "🍻 Alkohol schwächt die Kontrolle beim Trip. Erhöhtes Risiko für Blackouts und gefährliches Verhalten.",
+    tips: [
+      "❗ Kein Alkohol im LSD-Peak.",
+      "👫 Niemals alleine konsumieren.",
+      "🚑 Bei Bewusstlosigkeit: Notruf wählen."
+    ]
+  },
+  "LSD+THC": {
+    level: "danger",
+    description: "🍁 THC verstärkt LSD-Trips enorm. Kann Angst, Panik und Kontrollverlust auslösen.",
+    tips: [
+      "🥦 THC erst nach dem LSD-Peak (wenn überhaupt).",
+      "😌 Dosis vorsichtig wählen.",
+      "🎧 Musik oder ruhige Umgebung hilft bei Unruhe."
+    ]
+  },
+  "LSD+Ketamin": {
+    level: "danger",
+    description: "🌀 Sehr intensive Dissoziation möglich, erhöhtes Psychose-Risiko.",
+    tips: [
+      "🔬 Nur für sehr erfahrene User.",
+      "🏡 Sichere Umgebung!",
+      "📅 Viel Erholungszeit einplanen."
+    ]
+  },
+  "LSD+2C-B": {
+    level: "danger",
+    description: "🧠 Sehr intensive psychedelische Synergie. Wirkung kaum vorhersehbar.",
+    tips: [
+      "⚖️ Niedrige Dosierungen verwenden.",
+      "🧑‍🤝‍🧑 Trip-Sitter unbedingt erforderlich.",
+      "⏳ Viel Zeit zur Erholung."
+    ]
+  },
+  "LSD+Mirtazapin": {
+    level: "caution",
+    description: "💤 Mirtazapin kann LSD-Wirkung stark dämpfen oder unberechenbar machen.",
+    tips: [
+      "❓ Rechne nicht mit 'normalem' LSD-Trip.",
+      "⛔ Kein Nachlegen.",
+      "😴 Möglich, dass der Trip plötzlich endet."
+    ]
+  },
+  "LSD+Ritalin": {
+    level: "danger",
+    description: "⚡ Sehr nervös machend, Risiko für Panik und Herzrasen.",
+    tips: [
+      "🚫 Nicht bei Herzproblemen!",
+      "🧑‍🤝‍🧑 Immer mit nüchternem Sitter.",
+      "🌬️ Atmen nicht vergessen."
+    ]
+  },
+  "Alkohol+THC": {
+    level: "danger",
+    description: "🤢 Führt oft zu Übelkeit ('Greening Out'), Schwindel und Kontrollverlust.",
+    tips: [
+      "🍃 THC nur nach Alkohol, nie vorher.",
+      "🏡 Nur in sicherer Umgebung.",
+      "💧 Viel Wasser trinken."
+    ]
+  },
+  "Alkohol+GHB": {
+    level: "deadly",
+    description: "☠️ Lebensgefahr! Beide wirken atemdepressiv – Atemstillstand und Koma möglich.",
+    tips: [
+      "❌ Niemals kombinieren!",
+      "🚑 Notruf bei Bewusstlosigkeit.",
+      "⚰️ Lebensgefahr auch bei niedrigen Dosen."
+    ]
+  },
+  "Alkohol+Benzodiazepine": {
+    level: "deadly",
+    description: "💀 Beide wirken atemdepressiv. Lebensgefahr durch Atemstillstand!",
+    tips: [
+      "❌ Niemals zusammen konsumieren!",
+      "🛌 Bei Bewusstlosigkeit sofort Notarzt rufen.",
+      "🚷 Auch kleine Mengen vermeiden."
+    ]
+  },
+  "Alkohol+Ketamin": {
+    level: "danger",
+    description: "🚨 Verstärkte Koordinationsstörung, hohe Unfallgefahr.",
+    tips: [
+      "🔒 Nur eine Substanz pro Session.",
+      "🧑‍🤝‍🧑 Begleitperson erforderlich.",
+      "🚑 Unbedingt auf Sturzgefahr achten."
+    ]
+  },
+  "Alkohol+MDMA": {
+    level: "caution",
+    description: "💧 Alkohol + MDMA entwässern stark – Kreislaufbelastung!",
+    tips: [
+      "💦 Viel Wasser trinken.",
+      "🚫 Nicht nachlegen.",
+      "🧑‍⚕️ Auf Herz/Kreislauf achten."
+    ]
+  },
+  "Alkohol+Kokain": {
+    level: "danger",
+    description: "❗ Im Körper entsteht das giftige Cocaethylen – erhöht Herzinfarkt- und Krampfrisiko.",
+    tips: [
+      "❌ Kombination möglichst vermeiden.",
+      "🩺 Blutdruck kontrollieren.",
+      "🏥 Im Zweifel Notaufnahme."
+    ]
+  },
+  "Alkohol+2C-B": {
+    level: "danger",
+    description: "🌪️ Verstärkte Wahrnehmungsverzerrung, Übelkeit, Kontrollverlust.",
+    tips: [
+      "⚠️ Langsam dosieren.",
+      "🏡 Nicht in der Öffentlichkeit.",
+      "💤 Rückzugsort vorbereiten."
+    ]
+  },
+  "Alkohol+Amphetamin": {
+    level: "danger",
+    description: "💓 Hohe Belastung für Herz/Kreislauf, Aggressions- und Kontrollverlust-Risiko.",
+    tips: [
+      "🧑‍⚕️ Puls/Kreislauf beobachten.",
+      "🚫 Nicht nachlegen.",
+      "🧑‍🤝‍🧑 Begleitperson empfehlenswert."
+    ]
+  },
+  "Alkohol+Tramadol": {
+    level: "deadly",
+    description: "☠️ Krampfanfälle und Atemstillstand möglich.",
+    tips: [
+      "❌ Nie kombinieren.",
+      "🚑 Notarzt rufen bei Problemen.",
+      "🛑 Sofort Konsum stoppen bei Symptomen."
+    ]
+  },
+  "THC+CBD": {
+    level: "safe",
+    description: "🌿 CBD kann negative Effekte von THC abmildern (Paranoia, Herzrasen).",
+    tips: [
+      "🔄 CBD als 'Notbremse' bei zu starkem THC-High.",
+      "😴 Kann auch müde machen.",
+      "🥤 Viel trinken."
+    ]
+  },
+  "THC+Ritalin": {
+    level: "danger",
+    description: "😰 Herzrasen, Unruhe und Panik möglich.",
+    tips: [
+      "⏳ Sehr langsam dosieren.",
+      "🧑‍🤝‍🧑 Sitter empfehlenswert.",
+      "❤️ Bei Herzproblemen meiden."
+    ]
+  },
+  "THC+1V-LSD": {
+    level: "danger",
+    description: "🔀 Verstärkung und Verlängerung des LSD-Trips. Mehr optische Effekte, aber auch mehr Angst/Panik möglich.",
+    tips: [
+      "🔎 Kleine Dosierungen wählen.",
+      "🎵 Ruhige Musik/Umgebung.",
+      "🧑‍🤝‍🧑 Mit erfahrenem Sitter."
+    ]
+  },
+  "THC+Ketamin": {
+    level: "danger",
+    description: "🌫️ Verstärkte Dissoziation und Realitätsverlust.",
+    tips: [
+      "💡 Licht gedimmt, ruhige Umgebung.",
+      "🚨 Nicht alleine konsumieren.",
+      "📉 Niedrige Dosierung."
+    ]
+  },
+  "THC+MDMA": {
+    level: "caution",
+    description: "😊 Kann Euphorie, aber auch Angst/Herzrasen verstärken.",
+    tips: [
+      "🧊 Erst MDMA, dann wenig THC.",
+      "🌬️ Bei Unruhe: tief atmen.",
+      "🧑‍🤝‍🧑 Nicht alleine."
+    ]
+  },
+  "THC+2C-B": {
+    level: "caution",
+    description: "🤹‍♂️ Wirkung schwer vorhersehbar – teils 'lustig', teils unangenehm.",
+    tips: [
+      "🧑‍🤝‍🧑 Nur mit Vertrauten.",
+      "🎢 Kleine Dosierung.",
+      "🚫 Nicht am Peak kombinieren."
+    ]
+  },
+  "THC+Mirtazapin": {
+    level: "caution",
+    description: "😪 Kann starke Müdigkeit und Fressflash auslösen.",
+    tips: [
+      "🛌 Auf Müdigkeit vorbereiten.",
+      "🍽️ Vorräte bereithalten.",
+      "😴 Nicht bei Arbeit/Fahrten."
+    ]
+  },
+  "THC+Amphetamin": {
+    level: "danger",
+    description: "💥 Herzrasen, Paranoia und Panik möglich.",
+    tips: [
+      "❤️ Nicht bei Angsterkrankung.",
+      "😌 Nicht allein konsumieren.",
+      "🧑‍⚕️ Puls kontrollieren."
+    ]
+  },
+  "THC+Kokain": {
+    level: "danger",
+    description: "🩺 Kann zu Herzrasen, Unruhe, Kreislaufproblemen führen.",
+    tips: [
+      "🚨 Nur winzige Dosen.",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "❌ Bei Unwohlsein abbrechen."
+    ]
+  },
+  "THC+Tramadol": {
+    level: "caution",
+    description: "😴 Koordinationsprobleme, starke Müdigkeit möglich.",
+    tips: [
+      "🛏️ Ruhiger Rückzugsort.",
+      "🧑‍🤝‍🧑 Nicht allein.",
+      "🚗 Kein Fahren/Bedienen von Maschinen."
+    ]
+  },
+  "MDMA+Kokain": {
+    level: "deadly",
+    description: "☠️ Extrem gefährlich! Herzinfarkt, Überhitzung, Krampfanfall möglich.",
+    tips: [
+      "❌ Nie kombinieren.",
+      "🚑 Notruf bei Symptomen.",
+      "🧑‍🤝‍🧑 Sitter, kalte Getränke bereit."
+    ]
+  },
+  "MDMA+Alkohol": {
+    level: "caution",
+    description: "💦 Beide entwässern stark – Gefahr von Kreislaufkollaps.",
+    tips: [
+      "💧 Viel Wasser trinken.",
+      "🧑‍⚕️ Auf Schwindel/Kopfschmerz achten.",
+      "🛑 Kein Nachlegen."
+    ]
+  },
+  "MDMA+Ritalin": {
+    level: "danger",
+    description: "🔥 Extreme Kreislaufbelastung, Überhitzungs- und Infarktrisiko.",
+    tips: [
+      "❌ Nicht kombinieren.",
+      "🩺 Puls/Körpertemperatur beobachten.",
+      "🚑 Bei Beschwerden sofort Hilfe."
+    ]
+  },
+  "MDMA+Ketamin": {
+    level: "caution",
+    description: "🌀 Wirkt stark sedierend, kann Trip verändern.",
+    tips: [
+      "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+      "⏳ Dosis gering halten.",
+      "🛌 Ruhige Umgebung."
+    ]
+  },
+  "MDMA+2C-B": {
+    level: "danger",
+    description: "🎢 Sehr intensiver, chaotischer Trip möglich – Herzbelastung, Kontrollverlust.",
+    tips: [
+      "🔎 Kleine Dosierungen.",
+      "🧑‍🤝‍🧑 Sitter ratsam.",
+      "🚫 Nicht nachlegen."
+    ]
+  },
+  "MDMA+Mirtazapin": {
+    level: "caution",
+    description: "⬇️ Mirtazapin schwächt MDMA stark ab.",
+    tips: [
+      "🧑‍⚕️ Kein Nachlegen.",
+      "😶 Trip kann ganz anders ausfallen.",
+      "🛑 Keine Erwartung an typisches MDMA-Feeling."
+    ]
+  },
+  "MDMA+Amphetamin": {
+    level: "danger",
+    description: "❤️ Herzrasen, Überhitzung und Krampfanfälle möglich.",
+    tips: [
+      "🧑‍⚕️ Nicht kombinieren!",
+      "💧 Viel trinken.",
+      "🚑 Notruf bei Symptomen."
+    ]
+  },
+  "MDMA+Tramadol": {
+    level: "danger",
+    description: "⚡ Krampfanfall- und Überhitzungsgefahr.",
+    tips: [
+      "❌ Nicht kombinieren.",
+      "🧑‍⚕️ Sofort Hilfe bei Symptomen.",
+      "🛑 Auf Warnsignale achten."
+    ]
+  },
+  "MDMA+GHB": {
+    level: "deadly",
+    description: "☠️ Atemstillstand und Koma möglich.",
+    tips: [
+      "🚫 Nie kombinieren.",
+      "🚑 Notruf bei Bewusstlosigkeit.",
+      "🛑 Lebensgefahr auch bei kleinen Mengen."
+    ]
+  }
+  // Du kannst hier beliebig viele weitere Paare nach dem selben Schema ergänzen!
 };
+
 
 function fillSelects() {
   const s1 = document.getElementById("sub1");
