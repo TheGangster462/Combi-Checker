@@ -828,6 +828,188 @@ const kombis = {
     "🚑 Notruf bei Fieber, Verwirrtheit, Muskelzucken.",
     "🧑‍🤝‍🧑 Immer mit nüchternem Sitter."
   ]
+},
+"Benzodiazepine+CBD": {
+  level: "caution",
+  description: "🌿 Beide wirken entspannend und beruhigend, verstärken sich gegenseitig. Kann starke Müdigkeit und reduzierte Aufmerksamkeit auslösen.",
+  tips: [
+    "🛏️ Nicht vor Aktivitäten, Autofahren vermeiden.",
+    "😴 Mit Müdigkeit rechnen.",
+    "🧑‍🤝‍🧑 Sitter ratsam, vor allem bei höheren Dosen."
+  ]
+},
+"Benzodiazepine+DMT": {
+  level: "caution",
+  description: "🧘‍♂️ Benzodiazepine können einen DMT-Trip abbremsen oder beenden, aber auch für starke Sedierung sorgen.",
+  tips: [
+    "❌ Nicht zur Verstärkung des Trips einsetzen.",
+    "😌 Nur im Ausnahmefall (z.B. Panik) und unter Aufsicht.",
+    "🛌 Nach Einnahme: Ruhig bleiben, nicht allein lassen."
+  ]
+},
+"Benzodiazepine+Diazepam": {
+  level: "danger",
+  description: "💀 Zwei Benzodiazepine zusammen führen zu massiv verstärkter Wirkung. Hohe Gefahr für Blackout, Atemdepression, Gedächtnisverlust.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🚑 Bei Bewusstlosigkeit: Notruf.",
+    "🧑‍🤝‍🧑 Niemals alleine konsumieren."
+  ]
+},
+"Benzodiazepine+GHB": {
+  level: "deadly",
+  description: "☠️ Beide wirken stark atemdepressiv und sedierend – Lebensgefahr durch Atemstillstand, Koma und Tod.",
+  tips: [
+    "❌ Kombination streng vermeiden!",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"Benzodiazepine+HHC": {
+  level: "caution",
+  description: "💤 Kombi kann starke Sedierung, Koordinationsprobleme und Blackouts auslösen.",
+  tips: [
+    "🛏️ Nicht alleine konsumieren.",
+    "😴 Keine Maschinen bedienen/Auto fahren.",
+    "🚑 Bei extremer Schläfrigkeit Hilfe holen."
+  ]
+},
+"Benzodiazepine+JWH-018": {
+  level: "danger",
+  description: "🚩 Unberechenbare Verstärkung von Sedierung und Psychoserisiko, extreme Verwirrtheit und Kontrollverlust möglich.",
+  tips: [
+    "⚠️ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei starken Nebenwirkungen sofort Hilfe holen."
+  ]
+},
+"Benzodiazepine+Kokain": {
+  level: "danger",
+  description: "⚡️ Kokain kann angstlösend wirken, aber nach Wirkungseinbruch droht depressive Verstärkung, Kreislaufbelastung und Überdosierungsgefahr.",
+  tips: [
+    "⏳ Substanzen zeitlich trennen.",
+    "🚑 Bei Herzrasen, Atemproblemen Notruf.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren."
+  ]
+},
+"Benzodiazepine+Ketamin": {
+  level: "danger",
+  description: "🌫️ Kombination kann zu extremer Sedierung, Gedächtnislücken und Kontrollverlust führen.",
+  tips: [
+    "🛏️ Nur in sicherem Umfeld.",
+    "🧑‍🤝‍🧑 Niemals allein konsumieren.",
+    "🚑 Bei Bewusstlosigkeit: Notruf."
+  ]
+},
+"Benzodiazepine+LSD": {
+  level: "caution",
+  description: "🛑 Benzodiazepine können LSD-Trips stark abschwächen oder beenden, wirken aber stark beruhigend.",
+  tips: [
+    "😌 Nur zur Notfallberuhigung bei Bad Trip verwenden.",
+    "⏳ Nach Einnahme keine weiteren Dosen nehmen.",
+    "🧑‍🤝‍🧑 Nie ohne nüchternen Sitter."
+  ]
+},
+"Benzodiazepine+MDA": {
+  level: "danger",
+  description: "💥 Gefahr für Kreislauf, Sedierung und Blackout – besonders riskant bei Überhitzung oder Dehydrierung.",
+  tips: [
+    "🚫 Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Notruf bei Bewusstlosigkeit oder Atemnot."
+  ]
+},
+"Benzodiazepine+MDMA": {
+  level: "caution",
+  description: "😴 Benzodiazepine können MDMA-Trips beenden oder dämpfen, wirken aber stark sedierend.",
+  tips: [
+    "🔒 Nur bei extremer Unruhe/Bad Trip.",
+    "⏳ Keine weiteren Dosen nach Benzo-Einnahme.",
+    "🧑‍🤝‍🧑 Sitter empfehlenswert."
+  ]
+},
+"Benzodiazepine+Mescalin": {
+  level: "caution",
+  description: "🛌 Benzos beenden oder dämpfen den Mescalin-Trip, können zu starker Sedierung führen.",
+  tips: [
+    "😌 Nur im Notfall einsetzen.",
+    "🛏️ Keine weiteren Substanzen nach Benzo-Einnahme.",
+    "🧑‍🤝‍🧑 Sitter ratsam."
+  ]
+},
+"Benzodiazepine+Mirtazapin": {
+  level: "caution",
+  description: "🛏️ Additive sedierende Wirkung – starke Müdigkeit, Konzentrationsstörungen möglich.",
+  tips: [
+    "😴 Nur zu Hause/in sicherer Umgebung.",
+    "🚗 Keine Teilnahme am Straßenverkehr.",
+    "🧑‍🤝‍🧑 Sitter hilfreich."
+  ]
+},
+"Benzodiazepine+Ritalin": {
+  level: "danger",
+  description: "⚡️ Wechsel zwischen Beruhigung und Stimulation kann Kreislauf und Psyche stark belasten.",
+  tips: [
+    "⏳ Substanzen möglichst zeitlich trennen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Unwohlsein oder Herzproblemen Hilfe holen."
+  ]
+},
+"Benzodiazepine+THC": {
+  level: "caution",
+  description: "💤 Starke Sedierung, Koordinationsprobleme und Erinnerungslücken möglich.",
+  tips: [
+    "🛏️ Ruhige Umgebung, nicht allein.",
+    "😴 Keine Maschinen/Auto.",
+    "🚑 Hilfe holen bei extremer Müdigkeit."
+  ]
+},
+// Tilidin+Benzodiazepine existiert schon
+// Tramadol+Benzodiazepine existiert schon
+"Benzodiazepine+1V-LSD": {
+  level: "caution",
+  description: "🛑 Benzodiazepine können die Wirkung von 1V-LSD deutlich abschwächen oder beenden.",
+  tips: [
+    "😌 Nur bei Bad Trip, niemals zur Verstärkung.",
+    "🧑‍🤝‍🧑 Nüchterner Sitter ratsam.",
+    "⏳ Nach Einnahme keine weiteren Substanzen."
+  ]
+},
+"Benzodiazepine+2C-B": {
+  level: "caution",
+  description: "🛌 Benzodiazepine dämpfen 2C-B-Trips, können aber sehr müde und benommen machen.",
+  tips: [
+    "😌 Nur bei Bedarf (Unruhe/Bad Trip).",
+    "🛏️ Nicht allein bleiben.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"Benzodiazepine+3-MMC": {
+  level: "danger",
+  description: "💥 Risiko für Kreislauf, psychische Instabilität, starke Müdigkeit nach Wirkungseinbruch.",
+  tips: [
+    "⏳ Substanzen trennen, nie gleichzeitig konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"Benzodiazepine+4-MMC": {
+  level: "danger",
+  description: "⚡️ Stark unterschiedliche Wirkung – Herz und Psyche werden belastet, Gefahr von Blackout und Kreislaufproblemen.",
+  tips: [
+    "⏳ Zeitlich trennen, nicht zusammen einnehmen.",
+    "🧑‍🤝‍🧑 Niemals allein.",
+    "🚑 Bei Herz-/Kreislaufproblemen Notruf."
+  ]
+},
+"Benzodiazepine+6-APB": {
+  level: "danger",
+  description: "⚡️ Kombination kann zu starker Sedierung, Herzproblemen und Kreislaufversagen führen.",
+  tips: [
+    "🚫 Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🚑 Notruf bei Symptomen."
+  ]
 }
 };
 
