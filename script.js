@@ -1,6 +1,6 @@
 const substances = [
   "LSD","Alkohol","THC","MDMA","Ritalin","Mirtazapin","Ketamin","CBD","2C-B","1V-LSD","Diazepam",
-  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze","O-DSMT"
+  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze","O-DSMT","Kratom","Methamphetamin"
 ];
 
 function kombiKey(a, b) {
@@ -3037,7 +3037,342 @@ const kombis = {
     "🚑 Hilfe holen bei Brustschmerzen, Unruhe, Krämpfen.",
     "🧑‍🤝‍🧑 Nie allein konsumieren."
   ]
-}
+},
+// ---- KRATOM-KOMBIS ----
+"Kratom+Alkohol": {
+  level: "danger",
+  description: "💀 Beide wirken sedierend und können die Atemdepression und das Risiko für Blackout, Erbrechen und Ohnmacht deutlich erhöhen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Nie alleine – Begleitperson empfehlenswert.",
+    "🚑 Notruf bei Bewusstlosigkeit, Atemnot oder Erbrechen."
+  ]
+},
+"Kratom+Benzodiazepine": {
+  level: "deadly",
+  description: "☠️ Kratom und Benzos können starke Atemdepression, Koma und Todesfälle verursachen – extrem gefährliche Mischung!",
+  tips: [
+    "❌ Auf keinen Fall kombinieren.",
+    "🚑 Sofort Hilfe holen bei Bewusstlosigkeit oder Atemaussetzern.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"Kratom+Tramadol": {
+  level: "danger",
+  description: "⚡ Zwei Opioide: Risiko für Krampfanfälle, Atemdepression und schwere Nebenwirkungen deutlich erhöht.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Nie alleine.",
+    "🚑 Hilfe holen bei Muskelzucken, Bewusstlosigkeit oder Atemnot."
+  ]
+},
+"Kratom+Tilidin": {
+  level: "danger",
+  description: "💊 Zwei Opioide – deutlich gesteigertes Risiko für Nebenwirkungen, Übelkeit, Atemdepression und Sucht.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen (Atemnot, Bewusstlosigkeit) sofort Notruf."
+  ]
+},
+"Kratom+O-DSMT": {
+  level: "danger",
+  description: "☠️ Zwei opioide Wirkstoffe, hohe Gefahr für Atemstillstand, Übelkeit, Kreislaufkollaps und starke Nebenwirkungen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "🚑 Bei Bewusstlosigkeit oder Atemnot sofort Notruf."
+  ]
+},
+"Kratom+CBD": {
+  level: "caution",
+  description: "🌱 CBD kann die sedierende und entspannende Wirkung von Kratom verstärken, aber auch müde machen.",
+  tips: [
+    "⚖️ Mit kleinen Dosen beginnen.",
+    "😴 Keine Maschinen bedienen/Auto fahren.",
+    "🧑‍🤝‍🧑 Sitter hilfreich bei Unsicherheit."
+  ]
+},
+"Kratom+THC": {
+  level: "caution",
+  description: "🌿 THC kann die sedierende Wirkung von Kratom verstärken, erhöht das Risiko für Schwindel, Übelkeit und Kreislaufprobleme.",
+  tips: [
+    "⚖️ Erst geringe THC-Menge ausprobieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei starker Übelkeit oder Schwindel Hilfe holen."
+  ]
+},
+"Kratom+MDMA": {
+  level: "danger",
+  description: "💥 Unvorhersehbare Wechselwirkungen – erhöhte Herz-Kreislauf-Belastung und Gefahr für Übelkeit, Serotoninsyndrom und Kontrollverlust.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Krämpfen, starker Unruhe, Herzrasen."
+  ]
+},
+"Kratom+Amphetamin": {
+  level: "caution",
+  description: "⚠️ Mischkonsum kann Kreislauf und Psyche belasten: Kratom dämpft, Amphetamin stimuliert – erhöhtes Risiko für Übelkeit, Unruhe und Herzprobleme.",
+  tips: [
+    "⚖️ Einzelkonsum bevorzugen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"Kratom+Ketamin": {
+  level: "danger",
+  description: "🌫️ Beide können die Wahrnehmung verzerren und für Verwirrung, Übelkeit und starke Sedierung sorgen.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "🚑 Bei Bewusstlosigkeit sofort Hilfe holen."
+  ]
+},
+"Kratom+LSD": {
+  level: "caution",
+  description: "🌀 Kratom kann den LSD-Trip dämpfen, besonders gegen Ende zur Beruhigung genutzt werden – kann aber müde und benommen machen.",
+  tips: [
+    "🧑‍🤝‍🧑 Nur gegen Ende des Trips vorsichtig ausprobieren.",
+    "😴 Nicht bei Aktivitäten oder Autofahren.",
+    "⚠️ Wirkung individuell sehr unterschiedlich."
+  ]
+},
+"Kratom+Mirtazapin": {
+  level: "caution",
+  description: "🌙 Beide machen müde, verstärkte Sedierung möglich.",
+  tips: [
+    "😴 Nur zu Hause in sicherer Umgebung.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚗 Kein Auto/Maschinen bedienen."
+  ]
+},
+"Kratom+GHB": {
+  level: "deadly",
+  description: "☠️ Beide stark sedierend – höchste Lebensgefahr durch Atemdepression und Koma!",
+  tips: [
+    "❌ Nie kombinieren.",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"Kratom+1V-LSD": {
+  level: "caution",
+  description: "🌀 Kratom kann 1V-LSD dämpfen, besonders am Trip-Ende zur Beruhigung, kann aber müde machen.",
+  tips: [
+    "🧑‍🤝‍🧑 Wirkung individuell beobachten.",
+    "😴 Nicht vor Aktivitäten.",
+    "⚠️ Nur kleine Dosen probieren."
+  ]
+},
+"Kratom+2C-B": {
+  level: "caution",
+  description: "🌈 Kann 2C-B-Trip dämpfen, aber auch starke Müdigkeit oder Übelkeit verursachen.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😴 Auf Müdigkeit achten.",
+    "🚑 Hilfe bei starker Übelkeit/Kreislaufproblemen."
+  ]
+},
+"Kratom+Pilze": {
+  level: "caution",
+  description: "🍄 Kann den Pilz-Trip abmildern, aber auch müde oder benommen machen. Wirkung sehr individuell.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⚖️ Erst Trip abklingen lassen, dann vorsichtig dosieren.",
+    "🚗 Kein Auto fahren!"
+  ]
+},
+"Kratom+Kratom": {
+  level: "danger",
+  description: "💊 Nachlegen von Kratom erhöht das Risiko für Übelkeit, Erbrechen, Atemdepression und Abhängigkeit deutlich.",
+  tips: [
+    "❌ Kein Nachlegen während eines aktiven Rausches.",
+    "😴 Auf Nebenwirkungen achten.",
+    "🚑 Hilfe holen bei Erbrechen, Bewusstlosigkeit oder Atemnot."
+  ]
+},
+// ---- METHAMPHETAMIN-KOMBIS ----
+"Methamphetamin+Alkohol": {
+  level: "danger",
+  description: "💥 Extreme Belastung für Herz und Kreislauf, stark erhöhtes Risiko für Aggressivität, Kontrollverlust, Blackout.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Herzrasen, Ohnmacht oder Atemnot sofort Notruf."
+  ]
+},
+"Methamphetamin+Benzodiazepine": {
+  level: "danger",
+  description: "💊 Nach dem Meth-High können Benzos zum Runterkommen benutzt werden, aber hohe Gefahr für Blackout, Atemdepression und Überdosierung.",
+  tips: [
+    "❌ Kombi möglichst vermeiden.",
+    "🧑‍🤝‍🧑 Sitter muss nüchtern sein.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit oder Atemnot."
+  ]
+},
+"Methamphetamin+Tramadol": {
+  level: "danger",
+  description: "⚡️ Serotoninsyndrom, Krampfanfälle und Kreislaufprobleme möglich – hohes Risiko!",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Muskelzucken, Fieber, Bewusstlosigkeit."
+  ]
+},
+"Methamphetamin+Tilidin": {
+  level: "danger",
+  description: "💣 Beide wirken gegensätzlich (stimulierend/sedierend), Belastung für Herz, Kreislauf und Psyche. Risiko für Atemprobleme und Kontrollverlust.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"Methamphetamin+O-DSMT": {
+  level: "danger",
+  description: "☠️ Zwei starke Substanzen: erhöhte Gefahr für Herzversagen, Atemprobleme und Psychosen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "🚑 Bei Bewusstlosigkeit oder Herzproblemen Notruf."
+  ]
+},
+"Methamphetamin+CBD": {
+  level: "caution",
+  description: "🌱 CBD kann Unruhe, Überstimulation und Schlaflosigkeit mildern, aber auch müde machen.",
+  tips: [
+    "⚖️ Erst kleine CBD-Menge testen.",
+    "😴 Kein Auto/Maschinen nach CBD.",
+    "🧑‍🤝‍🧑 Sitter hilfreich."
+  ]
+},
+"Methamphetamin+THC": {
+  level: "danger",
+  description: "🍁 Erhöhtes Risiko für Paranoia, Angstzustände, Kreislaufprobleme und Psychosen.",
+  tips: [
+    "⚖️ Niedrig dosieren, Wirkung beobachten.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"Methamphetamin+MDMA": {
+  level: "deadly",
+  description: "☠️ Zwei starke Stimulanzien – extrem hohes Risiko für Überhitzung, Herzinfarkt, Serotoninsyndrom und Krampfanfälle.",
+  tips: [
+    "❌ Nicht kombinieren!",
+    "🚑 Notruf bei Symptomen wie Muskelzucken, Fieber, Herzrasen.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"Methamphetamin+Amphetamin": {
+  level: "deadly",
+  description: "☠️ Zwei starke Stimulanzien – massive Gefahr für Herz, Kreislauf, Psychosen, Krampfanfälle und plötzlichen Tod.",
+  tips: [
+    "❌ Nicht kombinieren!",
+    "🚑 Sofort Notruf bei Problemen.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren."
+  ]
+},
+"Methamphetamin+Ketamin": {
+  level: "danger",
+  description: "🌫️ Stimulans plus Dissoziativum: unberechenbare Wirkung, Gefahr für Angst, Verwirrtheit, Kreislaufprobleme.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Unruhe/Verwirrtheit."
+  ]
+},
+"Methamphetamin+LSD": {
+  level: "danger",
+  description: "🌀 Sehr starke psychedelische Stimulation, Risiko für Angst, Psychose und Kreislaufprobleme.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter dringend empfohlen.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"Methamphetamin+Mirtazapin": {
+  level: "caution",
+  description: "😴 Mirtazapin kann den Meth-High abmildern, macht aber sehr müde und kann Wirkung unberechenbar machen.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Wirkung einzeln testen.",
+    "😴 Auf Müdigkeit vorbereiten."
+  ]
+},
+"Methamphetamin+GHB": {
+  level: "deadly",
+  description: "☠️ Gefahr für Atemstillstand, Herz-Kreislauf-Kollaps, Koma und Tod durch gegensätzliche Wirkung!",
+  tips: [
+    "❌ Auf keinen Fall kombinieren!",
+    "🚑 Notruf bei Bewusstlosigkeit oder Atemproblemen.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"Methamphetamin+1V-LSD": {
+  level: "danger",
+  description: "🌀 Sehr starke Überstimulation, Psyche und Herz werden stark belastet – Angst und Kontrollverlust möglich.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"Methamphetamin+2C-B": {
+  level: "danger",
+  description: "🎢 Sehr intensive, stimulierende und psychedelische Wirkung. Gefahr für Überhitzung, Kreislaufprobleme und Psychosen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Symptomen."
+  ]
+},
+"Methamphetamin+Pilze": {
+  level: "danger",
+  description: "🍄 Unberechenbare, stark stimulierende Wirkung, Gefahr für Angst, Paranoia, Kreislaufprobleme und Psychosen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"Methamphetamin+Kratom": {
+  level: "caution",
+  description: "🌿 Kratom kann die Meth-Wirkung etwas dämpfen, aber auch Kreislauf, Übelkeit und Müdigkeit verstärken.",
+  tips: [
+    "⚖️ Wirkung individuell testen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Übelkeit/Kreislaufproblemen."
+  ]
+},
+"Methamphetamin+Ritalin": {
+  level: "deadly",
+  description: "☠️ Zwei Stimulanzien – massives Risiko für Herzinfarkt, Krämpfe, Psychosen und plötzlichen Tod.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🚑 Sofort Hilfe bei Beschwerden.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren."
+  ]
+},
+"Methamphetamin+Kokain": {
+  level: "deadly",
+  description: "☠️ Zwei extrem starke Stimulanzien – höchste Gefahr für Herzinfarkt, Krampfanfälle, Psychosen und plötzlichen Tod.",
+  tips: [
+    "❌ Nicht kombinieren!",
+    "🚑 Sofort Notruf bei Beschwerden.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren."
+  ]
+},
+"Methamphetamin+Methamphetamin": {
+  level: "deadly",
+  description: "☠️ Nachlegen erhöht das Risiko für akute Überhitzung, Psychosen, Kreislaufversagen und Tod massiv.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
 };
 
 function fillSelects() {
