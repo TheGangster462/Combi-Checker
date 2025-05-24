@@ -17,6 +17,17 @@ const kombis = {
       "💧 Viel Wasser trinken und Pausen machen."
     ]
   },
+  "LSD+Pilze": {
+  level: "danger",
+  description: "🌈 'Hippy Flip': Zwei starke Psychedelika – sehr intensive und kaum steuerbare Wirkung. Gefahr von Überforderung, Kontrollverlust und anhaltenden psychischen Nachwirkungen.",
+  tips: [
+    "❗ Nur für extrem erfahrene Psychonauten.",
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend erforderlich.",
+    "⏳ Sehr niedrige Dosierung beider Substanzen.",
+    "🛌 Viel Zeit zur Erholung einplanen.",
+    "🚑 Bei anhaltender Angst/Psychose: ärztliche Hilfe holen."
+  ]
+},
   "LSD+Alkohol": {
     level: "danger",
     description: "🍻 Alkohol schwächt die Kontrolle beim Trip. Erhöhtes Risiko für Blackouts und gefährliches Verhalten.",
