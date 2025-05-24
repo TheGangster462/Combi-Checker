@@ -1881,7 +1881,242 @@ const kombis = {
     "🧑‍🤝‍🧑 Sitter ratsam."
   ]
 },
+// Kombinationen einer Substanz mit sich selbst
 
+"LSD+LSD": {
+  level: "danger",
+  description: "⚠️ Nachlegen von LSD während eines Trips erhöht das Risiko für Überforderung, Panik, psychische Langzeitfolgen und einen sehr langen, anstrengenden Trip.",
+  tips: [
+    "❌ Kein Nachlegen während eines aktiven Trips.",
+    "🧑‍🤝‍🧑 Immer nüchterner Sitter empfohlen.",
+    "⏳ Wirkdauer und Intensität steigen unkontrollierbar an."
+  ]
+},
+"Alkohol+Alkohol": {
+  level: "danger",
+  description: "🍻 Wiederholter Alkoholkonsum steigert das Risiko für Alkoholintoxikation, Blackout, Erbrechen und Atemdepression.",
+  tips: [
+    "🧑‍🤝‍🧑 Trinkpausen einhalten, Wasser zwischendurch trinken.",
+    "⏳ Auf erste Warnzeichen achten (Schwindel, Übelkeit, Gedächtnislücken).",
+    "🚑 Bei Bewusstlosigkeit sofort Notruf."
+  ]
+},
+"THC+THC": {
+  level: "caution",
+  description: "🌿 Nachlegen von THC kann zu Angst, Paranoia, Kreislaufproblemen, starker Müdigkeit oder Fressflash führen.",
+  tips: [
+    "⏳ Wirkung abwarten, bevor nachgelegt wird.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🥤 Viel trinken, auf sich achten."
+  ]
+},
+"MDMA+MDMA": {
+  level: "deadly",
+  description: "☠️ Nachlegen von MDMA erhöht das Risiko für Überhitzung, Serotoninsyndrom, Kreislaufkollaps und dauerhafte Nervenschäden massiv.",
+  tips: [
+    "❌ Kein Nachlegen (Redosing) von MDMA – Lebensgefahr!",
+    "💧 Auf ausreichend Flüssigkeit achten, aber nicht übertreiben.",
+    "🚑 Bei Schwindel, Krämpfen, Verwirrung oder Überhitzung sofort Notruf."
+  ]
+},
+"Ritalin+Ritalin": {
+  level: "danger",
+  description: "💊 Erhöhtes Risiko für Herzrasen, Angst, Überreizung, Schlaflosigkeit und psychotische Symptome.",
+  tips: [
+    "⏳ Auf Wirkung warten, nicht nachlegen.",
+    "🧑‍🤝‍🧑 Sitter ratsam bei hohen Dosen.",
+    "🚑 Hilfe holen bei starken Nebenwirkungen."
+  ]
+},
+"Mirtazapin+Mirtazapin": {
+  level: "danger",
+  description: "💤 Zu hohe Dosen führen zu extremer Sedierung, Verwirrtheit, Atemdepression und Kreislaufproblemen.",
+  tips: [
+    "❌ Niemals eigenständig die Dosis erhöhen!",
+    "😴 Nicht in Kombination mit anderen Sedativa.",
+    "🚑 Notruf bei Bewusstlosigkeit oder starker Benommenheit."
+  ]
+},
+"Ketamin+Ketamin": {
+  level: "danger",
+  description: "🌀 Mehrfachdosen führen schnell zu Kontrollverlust, Blackout, Atemproblemen und starker Dissoziation.",
+  tips: [
+    "⏳ Immer Wirkung abwarten, nicht nachlegen.",
+    "🧑‍🤝‍🧑 Sitter zwingend erforderlich.",
+    "🚑 Notruf bei Atemnot oder Bewusstlosigkeit."
+  ]
+},
+"CBD+CBD": {
+  level: "safe",
+  description: "🌱 Sehr hohe Dosen CBD können starke Müdigkeit und niedrigen Blutdruck verursachen, sind aber selten gefährlich.",
+  tips: [
+    "😴 Bei starker Müdigkeit keine Maschinen bedienen.",
+    "🥤 Viel trinken.",
+    "🚗 Kein Autofahren bei Schwindel."
+  ]
+},
+"2C-B+2C-B": {
+  level: "danger",
+  description: "🧠 Nachlegen von 2C-B kann zu Überforderung, Angst, Kreislaufproblemen und Kontrollverlust führen.",
+  tips: [
+    "⏳ Wirkung vollständig abwarten.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei starken Nebenwirkungen."
+  ]
+},
+"1V-LSD+1V-LSD": {
+  level: "danger",
+  description: "⚠️ Nachlegen von 1V-LSD kann die Intensität und Dauer des Trips unkontrollierbar steigern.",
+  tips: [
+    "❌ Kein Nachlegen während des Trips.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"Diazepam+Diazepam": {
+  level: "deadly",
+  description: "☠️ Überdosierung kann zu extremer Sedierung, Gedächtnisverlust, Atemdepression und Tod führen.",
+  tips: [
+    "❌ Dosis nie eigenständig erhöhen.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "🚑 Bei Bewusstlosigkeit oder Atemproblemen sofort Notruf."
+  ]
+},
+"Tramadol+Tramadol": {
+  level: "deadly",
+  description: "☠️ Zu hohe Dosen verursachen Krampfanfälle, Atemstillstand und schwere Vergiftungen.",
+  tips: [
+    "❌ Keine Nachdosierung.",
+    "🚑 Bei Krämpfen oder Bewusstlosigkeit sofort Notruf.",
+    "🧑‍🤝‍🧑 Sitter ratsam."
+  ]
+},
+"Kokain+Kokain": {
+  level: "deadly",
+  description: "☠️ Wiederholtes Nachlegen extrem gefährlich – Risiko für Herzinfarkt, Krämpfe, Psychose und plötzlichen Tod.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🚑 Hilfe holen bei Brustschmerzen, Unruhe, Krämpfen.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren."
+  ]
+},
+"Amphetamin+Amphetamin": {
+  level: "deadly",
+  description: "☠️ Nachlegen erhöht massiv das Risiko für Kreislaufversagen, Psychosen und Organversagen.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Herzrasen, Krämpfen oder Verwirrtheit."
+  ]
+},
+"3-MMC+3-MMC": {
+  level: "danger",
+  description: "💥 Nachlegen kann zu sehr starker Überreizung, Angst, Kreislaufproblemen und Psychosen führen.",
+  tips: [
+    "⏳ Wirkung abwarten, nicht nachlegen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Nebenwirkungen."
+  ]
+},
+"4-MMC+4-MMC": {
+  level: "deadly",
+  description: "☠️ Sehr hohes Risiko für Überhitzung, Krampfanfälle, Herzinfarkt und Psychosen.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🚑 Hilfe holen bei Problemen.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren."
+  ]
+},
+"MDA+MDA": {
+  level: "deadly",
+  description: "☠️ Doppelte Dosis bedeutet extrem hohe Belastung für Herz und Psyche, Gefahr für Überhitzung und Serotoninsyndrom.",
+  tips: [
+    "❌ Kein Nachlegen.",
+    "🚑 Notruf bei Überhitzung, Krämpfen, Verwirrtheit.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren."
+  ]
+},
+"6-APB+6-APB": {
+  level: "danger",
+  description: "💥 Nachlegen erhöht Risiko für Überhitzung, Angst, Kreislaufprobleme und Serotoninsyndrom.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🚑 Hilfe holen bei Nebenwirkungen.",
+    "🧑‍🤝‍🧑 Sitter ratsam."
+  ]
+},
+"HHC+HHC": {
+  level: "caution",
+  description: "🍃 Nachlegen kann Müdigkeit, Verwirrtheit und Kreislaufprobleme verstärken.",
+  tips: [
+    "⏳ Wirkung abwarten, nicht nachlegen.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🚗 Kein Autofahren."
+  ]
+},
+"GHB+GHB": {
+  level: "deadly",
+  description: "☠️ Nachlegen kann zu Atemdepression, Koma und Tod führen – Gefahr eines 'GHB-Lochs' (Blackout)!",
+  tips: [
+    "❌ Kein Nachlegen.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein.",
+    "🚑 Notruf bei Bewusstlosigkeit."
+  ]
+},
+"Tilidin+Tilidin": {
+  level: "deadly",
+  description: "☠️ Nachdosierung erhöht das Risiko für Atemdepression, Bewusstlosigkeit und Tod.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Bewusstlosigkeit."
+  ]
+},
+"DMT+DMT": {
+  level: "danger",
+  description: "🚀 Mehrere Dosen hintereinander verstärken die psychedelische Wirkung, können aber zu extremer Verwirrung und Kontrollverlust führen.",
+  tips: [
+    "⏳ Immer Pause zwischen den Dosen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"JWH-018+JWH-018": {
+  level: "danger",
+  description: "🚩 Nachlegen von synthetischen Cannabinoiden kann zu Psychosen, Krämpfen und schweren Vergiftungen führen.",
+  tips: [
+    "❌ Kein Nachlegen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei schweren Nebenwirkungen."
+  ]
+},
+"Mescalin+Mescalin": {
+  level: "danger",
+  description: "🌈 Mehrfachdosen können zu extrem langen und intensiven Trips, Überforderung und Kreislaufproblemen führen.",
+  tips: [
+    "❌ Kein Nachlegen.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Überforderung."
+  ]
+},
+"Benzodiazepine+Benzodiazepine": {
+  level: "deadly",
+  description: "☠️ Überdosis führt schnell zu Atemstillstand, Koma und Tod.",
+  tips: [
+    "❌ Keine Mehrfachdosierung.",
+    "🚑 Bei Bewusstlosigkeit/fehlender Atmung sofort Notruf.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren."
+  ]
+},
+"Pilze+Pilze": {
+  level: "danger",
+  description: "🍄 Nachlegen von Pilzen während eines Trips verstärkt Intensität und Dauer enorm – Risiko für Kontrollverlust, Angst und langanhaltende Nachwirkungen.",
+  tips: [
+    "❌ Kein Nachlegen während des Peaks.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Überforderung/Psychose."
+  ]
+}
 };
 
 function fillSelects() {
