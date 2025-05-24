@@ -1,6 +1,6 @@
 const substances = [
   "LSD","Alkohol","THC","MDMA","Ritalin","Mirtazapin","Ketamin","CBD","2C-B","1V-LSD","Diazepam",
-  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine"
+  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze"
 ];
 
 function kombiKey(a, b) {
@@ -1009,6 +1009,638 @@ const kombis = {
     "🚫 Kombination vermeiden.",
     "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
     "🚑 Notruf bei Symptomen."
+  ]
+},
+// GHB-Kombis
+
+"GHB+CBD": {
+  level: "caution",
+  description: "🌿 CBD und GHB verstärken die sedierende Wirkung. Risiko für starke Müdigkeit, niedrigen Blutdruck und Schwindel.",
+  tips: [
+    "🛏️ Nur zu Hause/in sicherer Umgebung.",
+    "😴 Mit starker Müdigkeit rechnen.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren."
+  ]
+},
+"GHB+DMT": {
+  level: "danger",
+  description: "😵 GHB kann die psychedelischen Effekte von DMT abschwächen oder unvorhersehbar verändern. Erhöhtes Risiko für Kontrollverlust und Blackout.",
+  tips: [
+    "🧑‍🤝‍🧑 Niemals alleine konsumieren.",
+    "⏳ Erst die Wirkung einer Substanz abklingen lassen.",
+    "🚑 Bei Bewusstlosigkeit sofort Notruf."
+  ]
+},
+"GHB+Diazepam": {
+  level: "deadly",
+  description: "☠️ Beide wirken extrem atemdepressiv – höchste Lebensgefahr durch Atemstillstand und Koma.",
+  tips: [
+    "❌ Nie kombinieren.",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"GHB+HHC": {
+  level: "caution",
+  description: "💤 Beide wirken beruhigend und können die Sedierung verstärken. Blackout-Gefahr!",
+  tips: [
+    "🛏️ Nicht alleine, ruhige Umgebung.",
+    "😴 Kein Fahren/Bedienen von Maschinen.",
+    "🚑 Bei starker Benommenheit Notruf."
+  ]
+},
+"GHB+JWH-018": {
+  level: "danger",
+  description: "⚠️ Gefahr von starker Sedierung, Verwirrtheit und Kontrollverlust. Atemstillstand möglich.",
+  tips: [
+    "🛏️ Nur mit nüchternem Sitter.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🚑 Bei Atemnot/Bewusstlosigkeit Notruf."
+  ]
+},
+"GHB+Kokain": {
+  level: "danger",
+  description: "⚡️ Gegensätzliche Effekte können Kreislauf und Psyche extrem belasten. Nach dem High droht Überdosis-Gefahr von GHB.",
+  tips: [
+    "⏳ Substanzen zeitlich trennen.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Bei Schwäche, Bewusstlosigkeit sofort Hilfe holen."
+  ]
+},
+"GHB+Ketamin": {
+  level: "danger",
+  description: "🌫️ Kombination kann zu starker Sedierung, Bewusstlosigkeit und Atemstillstand führen.",
+  tips: [
+    "🚫 Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Nicht allein konsumieren.",
+    "🚑 Bei Bewusstlosigkeit: Notruf."
+  ]
+},
+"GHB+LSD": {
+  level: "danger",
+  description: "💀 GHB kann einen LSD-Trip abrupt abbrechen oder zu starkem Kontrollverlust führen. Gefahr von Blackout und Unfällen.",
+  tips: [
+    "🚫 Keine Mischung empfohlen.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Bei Bewusstlosigkeit sofort Hilfe holen."
+  ]
+},
+"GHB+MDA": {
+  level: "danger",
+  description: "⚡️ Herz und Kreislauf werden stark belastet. Risiko für Überhitzung, Atemprobleme und Kontrollverlust.",
+  tips: [
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "🚑 Bei Problemen Notruf.",
+    "⏳ Besser einzeln konsumieren."
+  ]
+},
+"GHB+MDMA": {
+  level: "deadly",
+  description: "☠️ Extrem gefährlich – Atemstillstand, Krampfanfälle und Koma möglich.",
+  tips: [
+    "❌ Niemals kombinieren.",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"GHB+Mescalin": {
+  level: "danger",
+  description: "🛌 GHB kann die psychedelischen Effekte von Mescalin abschwächen, aber die Sedierung massiv verstärken.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🛏️ Ruhige Umgebung, keine Aktivitäten.",
+    "🚑 Bei Atemnot/Bewusstlosigkeit Notruf."
+  ]
+},
+"GHB+Mirtazapin": {
+  level: "danger",
+  description: "💤 Verstärkte Müdigkeit, Schwindel und Atemdepression möglich.",
+  tips: [
+    "🛏️ Nur zu Hause/in sicherem Umfeld.",
+    "😴 Keine weiteren sedierenden Substanzen nehmen.",
+    "🧑‍🤝‍🧑 Nicht allein bleiben."
+  ]
+},
+"GHB+Ritalin": {
+  level: "danger",
+  description: "⚡️ Gegensätzliche Wirkung, starke Belastung für Herz/Kreislauf und Psyche.",
+  tips: [
+    "⏳ Substanzen nicht gleichzeitig einnehmen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Herzrasen, Atemproblemen Notruf."
+  ]
+},
+"GHB+THC": {
+  level: "danger",
+  description: "😵 Kann zu sehr starker Sedierung, Übelkeit und Kontrollverlust führen.",
+  tips: [
+    "🧑‍🤝‍🧑 Begleitperson empfehlenswert.",
+    "🛏️ Liegenbleiben im Notfall.",
+    "🚑 Hilfe holen bei Atemproblemen."
+  ]
+},
+"GHB+1V-LSD": {
+  level: "danger",
+  description: "💀 GHB kann den Trip von 1V-LSD abrupt beenden oder stark dämpfen. Kontrollverlust und Blackout möglich.",
+  tips: [
+    "🚫 Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nüchterner Sitter.",
+    "🚑 Notruf bei Problemen."
+  ]
+},
+"GHB+2C-B": {
+  level: "danger",
+  description: "🛌 Beide Substanzen wirken auf das zentrale Nervensystem, verstärkte Sedierung und Kontrollverlust möglich.",
+  tips: [
+    "🛏️ Nicht alleine konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Bewusstlosigkeit Hilfe holen."
+  ]
+},
+"GHB+3-MMC": {
+  level: "danger",
+  description: "⚡️ Sehr hohe Belastung für das zentrale Nervensystem, Krampfanfälle und Atemdepression möglich.",
+  tips: [
+    "🚫 Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Notruf bei Symptomen."
+  ]
+},
+"GHB+4-MMC": {
+  level: "danger",
+  description: "⚡️ Extrem riskant – Gefahr für Kreislauf, Atemdepression, Kontrollverlust.",
+  tips: [
+    "🚫 Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Niemals allein konsumieren.",
+    "🚑 Hilfe bei Problemen sofort rufen."
+  ]
+},
+"GHB+6-APB": {
+  level: "danger",
+  description: "💣 Kreislauf und Atmung werden massiv belastet – Lebensgefahr bei Überdosierung.",
+  tips: [
+    "🚫 Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter unbedingt notwendig.",
+    "🚑 Bei Atemnot/Bewusstlosigkeit Notruf."
+  ]
+},
+"Amphetamin+Ketamin": {
+  level: "danger",
+  description: "💥 Die Kombination aus Stimulanz und Dissoziativem kann Kreislauf und Psyche stark belasten. Unvorhersehbare Wirkung, Risiko für Angst und Verwirrung.",
+  tips: [
+    "🚫 Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Bei Herzrasen oder Verwirrtheit Hilfe holen."
+  ]
+},
+"Benzodiazepine+Ketamin": {
+  level: "danger",
+  description: "🌫️ Kombination kann zu extremer Sedierung, Gedächtnislücken und Kontrollverlust führen.",
+  tips: [
+    "🛏️ Nur in sicherem Umfeld.",
+    "🧑‍🤝‍🧑 Niemals allein konsumieren.",
+    "🚑 Bei Bewusstlosigkeit: Notruf."
+  ]
+},
+"CBD+Ketamin": {
+  level: "caution",
+  description: "🌱 CBD kann die sedierende Wirkung von Ketamin verstärken, wirkt beruhigend, aber auch verlangsamend.",
+  tips: [
+    "🛏️ Nur in sicherer Umgebung.",
+    "😴 Auf Müdigkeit und verlangsamte Reaktion achten.",
+    "🚗 Keine Teilnahme am Straßenverkehr."
+  ]
+},
+"Diazepam+Ketamin": {
+  level: "danger",
+  description: "💤 Sehr starke Sedierung, Bewusstseinsstörungen und Atemdepression möglich.",
+  tips: [
+    "🛏️ Nur mit nüchternem Sitter.",
+    "❌ Nicht in Kombination ohne medizinische Überwachung.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"GHB+Ketamin": {
+  level: "deadly",
+  description: "☠️ Massive Atemdepression und Bewusstlosigkeit möglich – absolute Lebensgefahr!",
+  tips: [
+    "❌ Kombination streng vermeiden!",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"Ketamin+LSD": {
+  level: "danger",
+  description: "🌀 Sehr intensive Dissoziation möglich, erhöhtes Psychose-Risiko.",
+  tips: [
+    "🔬 Nur für sehr erfahrene User.",
+    "🏡 Sichere Umgebung!",
+    "📅 Viel Erholungszeit einplanen."
+  ]
+},
+"Ketamin+MDMA": {
+  level: "caution",
+  description: "🌀 Wirkt stark sedierend, kann Trip verändern.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "⏳ Dosis gering halten.",
+    "🛌 Ruhige Umgebung."
+  ]
+},
+"Ketamin+Mescalin": {
+  level: "danger",
+  description: "🌈 Verstärkte psychedelische Wirkung, hohe Überforderungs- und Verwirrungsgefahr.",
+  tips: [
+    "⚖️ Kleine Dosierungen.",
+    "🧑‍🤝‍🧑 Immer Sitter dabei.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"Ketamin+Mirtazapin": {
+  level: "caution",
+  description: "😴 Beide Substanzen wirken sedierend, starke Müdigkeit und Konzentrationsstörungen möglich.",
+  tips: [
+    "🛏️ Nicht allein konsumieren.",
+    "😴 Auf Müdigkeit vorbereiten.",
+    "🚑 Bei starker Bewusstseinsstörung Notruf."
+  ]
+},
+"Ketamin+Ritalin": {
+  level: "danger",
+  description: "⚡️ Erhöhtes Risiko für Kreislaufprobleme, Verwirrtheit und unvorhersehbare Wirkung.",
+  tips: [
+    "⏳ Zeitlich trennen, nie zusammen einnehmen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Herzrasen/Verwirrtheit Hilfe holen."
+  ]
+},
+"Ketamin+THC": {
+  level: "danger",
+  description: "🌫️ Verstärkte Dissoziation und Realitätsverlust.",
+  tips: [
+    "💡 Licht gedimmt, ruhige Umgebung.",
+    "🚨 Nicht alleine konsumieren.",
+    "📉 Niedrige Dosierung."
+  ]
+},
+"Ketamin+Tramadol": {
+  level: "danger",
+  description: "☠️ Gefahr für Krampfanfälle und verstärkte Sedierung, Atemdepression möglich.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Sitter nötig.",
+    "🚑 Bei Krampfanfällen/Bewusstlosigkeit sofort Hilfe holen."
+  ]
+},
+"Ketamin+2C-B": {
+  level: "danger",
+  description: "🧠 Sehr intensive psychedelische Erfahrung, Wirkung schwer steuerbar.",
+  tips: [
+    "⚖️ Kleine Dosierungen.",
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend erforderlich.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"Ketamin+Amphetamin": {
+  level: "danger",
+  description: "💥 Die Kombination aus Stimulanz und Dissoziativem kann Kreislauf und Psyche stark belasten.",
+  tips: [
+    "🚫 Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Bei Herzrasen/Verwirrtheit Hilfe holen."
+  ]
+},
+"Ketamin+Kokain": {
+  level: "danger",
+  description: "❗ Beide Substanzen können Herz und Psyche stark belasten – hohe Gefahr für Kreislaufprobleme, Paranoia und Kontrollverlust.",
+  tips: [
+    "🚫 Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Nie allein.",
+    "🚑 Hilfe holen bei Beschwerden."
+  ]
+},
+"Ketamin+3-MMC": {
+  level: "danger",
+  description: "🌀 Kann Wirkung sehr verändern – Gefahr von Verwirrtheit, Kreislaufproblemen.",
+  tips: [
+    "⏳ Nur mit Pausen.",
+    "🧑‍🤝‍🧑 Nicht alleine.",
+    "🛏️ Ruhiger Rückzugsort."
+  ]
+},
+"Ketamin+4-MMC": {
+  level: "danger",
+  description: "😵 Dissoziation und Überstimulation möglich, Verwirrtheit.",
+  tips: [
+    "🛏️ Ruhige Umgebung.",
+    "🧑‍🤝‍🧑 Nicht allein konsumieren.",
+    "⏳ Erst Wirkung einer Substanz abwarten."
+  ]
+},
+"Amphetamin+2C-B": {
+  level: "danger",
+  description: "🎢 Sehr intensive, stimulierende und psychedelische Wirkung. Hohe Gefahr für Überhitzung, Panik, Kreislaufprobleme.",
+  tips: [
+    "⚖️ Kleine Dosen, Wirkung abwarten.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Bei Schwindel/Herzrasen sofort Hilfe."
+  ]
+},
+"Amphetamin+3-MMC": {
+  level: "danger",
+  description: "💥 Starke Stimulation, erhöhte Belastung für Herz, Psyche und Kreislauf.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter empfehlenswert.",
+    "🚑 Hilfe holen bei Beschwerden."
+  ]
+},
+"Amphetamin+4-MMC": {
+  level: "danger",
+  description: "💥 Extrem starke Stimulation – Gefahr von Überhitzung, Krampfanfällen und Psychosen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍⚕️ Puls und Temperatur kontrollieren.",
+    "🚑 Notruf bei Krämpfen oder Kollaps."
+  ]
+},
+"Amphetamin+Alkohol": {
+  level: "danger",
+  description: "💓 Hohe Belastung für Herz/Kreislauf, Aggressions- und Kontrollverlust-Risiko.",
+  tips: [
+    "🧑‍⚕️ Puls/Kreislauf beobachten.",
+    "🚫 Nicht nachlegen.",
+    "🧑‍🤝‍🧑 Begleitperson empfehlenswert."
+  ]
+},
+"Amphetamin+Benzodiazepine": {
+  level: "danger",
+  description: "⚡️ Wechsel zwischen Beruhigung und Stimulation belastet Herz und Psyche. Nachwirkung oft depressive Verstärkung.",
+  tips: [
+    "⏳ Zeitlich trennen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Unwohlsein/Herzrasen Hilfe holen."
+  ]
+},
+"Amphetamin+CBD": {
+  level: "caution",
+  description: "🌱 CBD kann Unruhe und Überstimulation dämpfen, aber auch müde machen. Wirkung individuell.",
+  tips: [
+    "⚖️ Erst geringe CBD-Dosis probieren.",
+    "😴 Auf Müdigkeit vorbereitet sein.",
+    "🧑‍🤝‍🧑 Sitter ratsam bei Unsicherheit."
+  ]
+},
+"Amphetamin+Diazepam": {
+  level: "danger",
+  description: "💤 Diazepam kann Überstimulation abmildern, aber starke Sedierung und Kontrollverlust hervorrufen.",
+  tips: [
+    "😌 Diazepam nur im Notfall, nicht zur Kombination.",
+    "🧑‍🤝‍🧑 Nüchterner Sitter ratsam.",
+    "🚑 Bei Bewusstlosigkeit Hilfe holen."
+  ]
+},
+"Amphetamin+GHB": {
+  level: "danger",
+  description: "☠️ Sehr gefährlich – entgegengesetzte Wirkung, Gefahr von Atemstillstand und Kreislaufproblemen.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Notruf bei Atemproblemen."
+  ]
+},
+"Amphetamin+HHC": {
+  level: "danger",
+  description: "💥 Beide wirken stimulierend – Risiko für Herzrasen, Paranoia und Kreislaufprobleme.",
+  tips: [
+    "⚖️ Niedrig dosieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Unruhe/Herzrasen abbrechen."
+  ]
+},
+"Amphetamin+JWH-018": {
+  level: "danger",
+  description: "⚠️ Synthetisches Cannabinoid plus Stimulans: Unberechenbare, oft toxische Effekte.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Hilfe bei Psychose/Kreislaufproblemen."
+  ]
+},
+"Amphetamin+Ketamin": {
+  level: "danger",
+  description: "💥 Die Kombination aus Stimulanz und Dissoziativem kann Kreislauf und Psyche stark belasten. Unvorhersehbare Wirkung, Risiko für Angst und Verwirrung.",
+  tips: [
+    "🚫 Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Bei Herzrasen oder Verwirrtheit Hilfe holen."
+  ]
+},
+"Amphetamin+Kokain": {
+  level: "deadly",
+  description: "☠️ Zwei starke Stimulanzien: Sehr hohes Risiko für Herzinfarkt, Krampfanfälle und Psychose.",
+  tips: [
+    "❌ Auf keinen Fall kombinieren!",
+    "🚑 Sofort Notruf bei Symptomen.",
+    "🧑‍🤝‍🧑 Sitter muss nüchtern sein."
+  ]
+},
+"Amphetamin+LSD": {
+  level: "danger",
+  description: "💣 Sehr starke Überstimulation – Angst/Panik, Kreislaufgefahr.",
+  tips: [
+    "😬 Nicht bei psychischer Instabilität.",
+    "🧑‍🤝‍🧑 Sitter dringend empfohlen.",
+    "⏳ Besser nicht kombinieren!"
+  ]
+},
+"Amphetamin+MDMA": {
+  level: "danger",
+  description: "❤️ Herzrasen, Überhitzung und Krampfanfälle möglich.",
+  tips: [
+    "🧑‍⚕️ Nicht kombinieren!",
+    "💧 Viel trinken.",
+    "🚑 Notruf bei Symptomen."
+  ]
+},
+"Amphetamin+Mescalin": {
+  level: "danger",
+  description: "🌈 Überstimulation plus Psychedelik: Gefahr von Angst, Kontrollverlust und Kreislaufproblemen.",
+  tips: [
+    "⚖️ Nur sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Notruf bei Panik/Kollaps."
+  ]
+},
+"Amphetamin+Mirtazapin": {
+  level: "caution",
+  description: "😴 Mirtazapin kann Überstimulation abschwächen, macht aber stark müde.",
+  tips: [
+    "🛏️ Auf Müdigkeit achten.",
+    "⏳ Kein weiteres Nachlegen.",
+    "🧑‍🤝‍🧑 Sitter hilfreich."
+  ]
+},
+"Amphetamin+Ritalin": {
+  level: "danger",
+  description: "💊💥 Zwei Stimulanzien – sehr hohe Herz- und Suchtgefahr.",
+  tips: [
+    "⏳ Einzelkonsum bevorzugen.",
+    "🧑‍🤝‍🧑 Sitter empfohlen.",
+    "🚑 Bei Überhitzung/Kollaps Notruf."
+  ]
+},
+"Amphetamin+THC": {
+  level: "danger",
+  description: "💥 Herzrasen, Paranoia und Panik möglich.",
+  tips: [
+    "❤️ Nicht bei Angsterkrankung.",
+    "😌 Nicht allein konsumieren.",
+    "🧑‍⚕️ Puls kontrollieren."
+  ]
+},
+"Amphetamin+Tramadol": {
+  level: "danger",
+  description: "⚡️ Unvorhersehbare Wirkung, Serotonin-Syndrom und Krampfanfälle möglich.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Muskelzucken/Fieber."
+  ]
+},
+"Pilze+Alkohol": {
+  level: "danger",
+  description: "🍺 Alkohol schwächt die Kontrolle beim Trip, erhöht Angst, Übelkeit und das Risiko für Kontrollverlust.",
+  tips: [
+    "❗ Kein Alkohol im Peak oder direkt davor.",
+    "🧑‍🤝‍🧑 Nur mit nüchternem Sitter.",
+    "🚑 Bei Bewusstlosigkeit: Notruf."
+  ]
+},
+"Pilze+THC": {
+  level: "caution",
+  description: "🍁 THC kann die Wirkung von Pilzen verstärken, aber auch Angst und Paranoia auslösen.",
+  tips: [
+    "⚖️ Erst nach dem Pilz-Peak testen, kleine Dosis.",
+    "😌 Ruhige Umgebung, vertraute Menschen.",
+    "🧑‍🤝‍🧑 Sitter hilfreich bei Unsicherheit."
+  ]
+},
+"Pilze+CBD": {
+  level: "safe",
+  description: "🌿 CBD kann die Intensität des Trips leicht abschwächen und bei Unruhe/Angst helfen.",
+  tips: [
+    "😌 CBD bei Unruhe als 'Notbremse' möglich.",
+    "🧑‍🤝‍🧑 Sitter trotzdem empfehlenswert.",
+    "🥤 Viel trinken."
+  ]
+},
+"Pilze+Ketamin": {
+  level: "danger",
+  description: "🌀 Sehr intensive psychedelisch-dissoziative Erfahrung. Gefahr für Realitätsverlust, Angst und Verwirrtheit.",
+  tips: [
+    "❗ Nur für sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "⏳ Viel Zeit zur Erholung einplanen."
+  ]
+},
+"Pilze+Benzodiazepine": {
+  level: "caution",
+  description: "🛑 Benzodiazepine können den Pilz-Trip dämpfen oder beenden, aber auch zu starker Müdigkeit führen.",
+  tips: [
+    "😌 Nur im Notfall (z. B. Bad Trip).",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "⏳ Nach Einnahme keine weiteren Substanzen."
+  ]
+},
+"Pilze+MDMA": {
+  level: "danger",
+  description: "🌈 'Hippyflip': Sehr intensive, aber schwer vorhersehbare Kombination. Risiko für emotionale Überforderung.",
+  tips: [
+    "⚖️ Kleine Dosen beider Substanzen.",
+    "🧑‍🤝‍🧑 Sitter unbedingt erforderlich.",
+    "🚑 Bei Unruhe/Herzrasen Hilfe holen."
+  ]
+},
+"Pilze+2C-B": {
+  level: "danger",
+  description: "🎢 Beide sind psychedelisch, Wirkung kaum vorhersehbar. Gefahr von Überforderung und Kontrollverlust.",
+  tips: [
+    "❗ Sehr vorsichtig dosieren.",
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend.",
+    "⏳ Genug Zeit für Erholung einplanen."
+  ]
+},
+"Pilze+Mirtazapin": {
+  level: "caution",
+  description: "😴 Mirtazapin kann den Trip abschwächen oder beenden, macht aber sehr müde.",
+  tips: [
+    "😌 Nur bei Bad Trip/Unruhe.",
+    "🛏️ Ruhige Umgebung.",
+    "🧑‍🤝‍🧑 Sitter ratsam."
+  ]
+},
+"Pilze+Ritalin": {
+  level: "danger",
+  description: "⚡ Starke Kreislaufbelastung, Gefahr von Angst, Herzrasen und Überforderung.",
+  tips: [
+    "🚫 Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Herzproblemen Notruf."
+  ]
+},
+"Pilze+Tramadol": {
+  level: "danger",
+  description: "⚡️ Krampfanfälle und starke Sedierung möglich, Trip wird unvorhersehbar.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "🚑 Bei Unwohlsein Notruf."
+  ]
+},
+"Pilze+Amphetamin": {
+  level: "danger",
+  description: "💣 Extreme Überstimulation – Angst, Kontrollverlust und Kreislaufprobleme möglich.",
+  tips: [
+    "😬 Nicht bei psychischer Instabilität.",
+    "🧑‍🤝‍🧑 Sitter dringend empfohlen.",
+    "🚑 Notruf bei Überhitzung/Kollaps."
+  ]
+},
+"Pilze+Kokain": {
+  level: "danger",
+  description: "⚡️ Unvorhersehbare, oft toxische Wirkung. Gefahr für Kreislauf, Psyche und Überhitzung.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Problemen."
+  ]
+},
+"Pilze+GHB": {
+  level: "danger",
+  description: "💀 Gefahr von Kontrollverlust, starker Sedierung und Blackout.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter muss nüchtern sein.",
+    "🚑 Bei Bewusstlosigkeit Notruf."
+  ]
+},
+"Pilze+Mescalin": {
+  level: "danger",
+  description: "🌈 Zwei Psychedelika – Trip kann extrem intensiv, lang und unvorhersehbar werden.",
+  tips: [
+    "⚖️ Nur sehr erfahrene Psychonauten.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "⏳ Lange Erholungsphase einplanen."
+  ]
+},
+"Pilze+DMT": {
+  level: "danger",
+  description: "🚀 Sehr intensive, kaum steuerbare psychedelische Wirkung. Realitätsverlust und Angst möglich.",
+  tips: [
+    "⚖️ Nur für sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "⏳ Keine weiteren Substanzen nachlegen."
   ]
 }
 };
