@@ -1,6 +1,6 @@
 const substances = [
   "LSD","Alkohol","THC","MDMA","Ritalin","Mirtazapin","Ketamin","CBD","2C-B","1V-LSD","Diazepam",
-  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze"
+  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze","O-DSMT"
 ];
 
 function kombiKey(a, b) {
@@ -2115,6 +2115,124 @@ const kombis = {
     "❌ Kein Nachlegen während des Peaks.",
     "🧑‍🤝‍🧑 Sitter ratsam.",
     "🚑 Hilfe holen bei Überforderung/Psychose."
+  ]
+},
+"O-DSMT+O-DSMT": {
+  level: "deadly",
+  description: "☠️ Wiederholte Einnahme oder zu hohe Dosis von O-DSMT führt sehr leicht zu extremer Atemdepression, Bewusstlosigkeit und Tod.",
+  tips: [
+    "❌ Kein Nachlegen – höchste Lebensgefahr.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "🚑 Bei Bewusstlosigkeit/Atemproblemen: Notruf!"
+  ]
+},
+"O-DSMT+Benzodiazepine": {
+  level: "deadly",
+  description: "☠️ Beide wirken stark atemdepressiv und sedierend – höchste Lebensgefahr durch Atemstillstand und Koma.",
+  tips: [
+    "❌ Niemals kombinieren.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein.",
+    "🚑 Notruf bei Bewusstlosigkeit!"
+  ]
+},
+"O-DSMT+Alkohol": {
+  level: "deadly",
+  description: "☠️ Alkohol verstärkt die atemdepressive Wirkung von O-DSMT massiv – Atemstillstand und Koma möglich.",
+  tips: [
+    "❌ Nie gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Immer Sitter dabei.",
+    "🚑 Bei Atemproblemen/Bewusstlosigkeit sofort Notruf."
+  ]
+},
+"O-DSMT+GHB": {
+  level: "deadly",
+  description: "☠️ Beides sind ZNS-dämpfende Substanzen – Atemdepression und Tod sehr wahrscheinlich.",
+  tips: [
+    "❌ Nie gemeinsam einnehmen.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein.",
+    "🚑 Notruf bei Problemen."
+  ]
+},
+"O-DSMT+Tramadol": {
+  level: "danger",
+  description: "⚠️ Zwei Opioide: sehr hohes Risiko für Atemdepression, Überdosierung und schwere Nebenwirkungen.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Bei Atemnot sofort Notruf."
+  ]
+},
+"O-DSMT+Tilidin": {
+  level: "danger",
+  description: "⚠️ Beide sind Opioide – Gefahr für Atemdepression und starke Sedierung.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"O-DSMT+MDMA": {
+  level: "danger",
+  description: "⚡ Erhöhtes Risiko für Atemdepression, Kreislaufprobleme und Serotoninsyndrom.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Unruhe, Krämpfen, Atemnot."
+  ]
+},
+"O-DSMT+THC": {
+  level: "danger",
+  description: "🌫️ Verstärkte Müdigkeit, Übelkeit, Schwindel und Unfallgefahr.",
+  tips: [
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🛏️ Ruhige Umgebung.",
+    "🚑 Hilfe holen bei starker Schläfrigkeit/Atemnot."
+  ]
+},
+"O-DSMT+Ketamin": {
+  level: "danger",
+  description: "💤 Beide sedierend – Gefahr von Bewusstlosigkeit und Atemdepression.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"O-DSMT+Mirtazapin": {
+  level: "danger",
+  description: "💤 Beide machen stark müde und erhöhen das Risiko für Kreislaufprobleme, Schwindel und Atemdepression.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"O-DSMT+CBD": {
+  level: "caution",
+  description: "🌱 Additive beruhigende Wirkung, kann Müdigkeit und niedrigen Blutdruck verstärken.",
+  tips: [
+    "😴 Mit starker Müdigkeit rechnen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚗 Kein Fahren nach Einnahme."
+  ]
+},
+// Optional weitere Kombis:
+"O-DSMT+Amphetamin": {
+  level: "danger",
+  description: "💥 Unvorhersehbare Wechselwirkung zwischen Stimulation und Sedierung – Risiko für Herzprobleme, Kreislaufversagen und Verwirrtheit.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Beschwerden."
+  ]
+},
+"O-DSMT+Kokain": {
+  level: "danger",
+  description: "⚡ Kombination aus Opioid und Stimulans belastet Herz und Kreislauf stark, Gefahr für Überdosis nach Wirkungseinbruch.",
+  tips: [
+    "⏳ Substanzen nicht gleichzeitig konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
   ]
 }
 };
