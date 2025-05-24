@@ -1653,7 +1653,235 @@ const kombis = {
     "🧑‍🤝‍🧑 Sitter zwingend.",
     "⏳ Keine weiteren Substanzen nachlegen."
   ]
-}
+},
+// Alle relevanten Mirtazapin-Kombis im Stil deiner Datenbank:
+
+"LSD+Mirtazapin": {
+  level: "caution",
+  description: "💤 Mirtazapin kann LSD-Wirkung stark dämpfen oder unberechenbar machen.",
+  tips: [
+    "❓ Rechne nicht mit 'normalem' LSD-Trip.",
+    "⛔ Kein Nachlegen.",
+    "😴 Möglich, dass der Trip plötzlich endet."
+  ]
+},
+"Alkohol+Mirtazapin": {
+  level: "danger",
+  description: "🍷 Beide wirken sedierend. Risiko für Blackouts, Stürze und Atemdepression.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Niemals alleine.",
+    "🚑 Notruf bei Bewusstlosigkeit."
+  ]
+},
+"THC+Mirtazapin": {
+  level: "caution",
+  description: "😪 Kann starke Müdigkeit und Fressflash auslösen.",
+  tips: [
+    "🛌 Auf Müdigkeit vorbereiten.",
+    "🍽️ Vorräte bereithalten.",
+    "😴 Nicht bei Arbeit/Fahrten."
+  ]
+},
+"MDMA+Mirtazapin": {
+  level: "caution",
+  description: "⬇️ Mirtazapin schwächt MDMA stark ab.",
+  tips: [
+    "🧑‍⚕️ Kein Nachlegen.",
+    "😶 Trip kann ganz anders ausfallen.",
+    "🛑 Keine Erwartung an typisches MDMA-Feeling."
+  ]
+},
+"Ritalin+Mirtazapin": {
+  level: "caution",
+  description: "⚠️ Wirkung kann sich gegenseitig beeinflussen, Nebenwirkungen schwer vorhersehbar.",
+  tips: [
+    "⏳ Einzelkonsum bevorzugen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Unwohlsein Hilfe holen."
+  ]
+},
+"Mirtazapin+Ketamin": {
+  level: "caution",
+  description: "😴 Beide Substanzen wirken sedierend, starke Müdigkeit und Konzentrationsstörungen möglich.",
+  tips: [
+    "🛏️ Nicht allein konsumieren.",
+    "😴 Auf Müdigkeit vorbereiten.",
+    "🚑 Bei starker Bewusstseinsstörung Notruf."
+  ]
+},
+"Mirtazapin+CBD": {
+  level: "caution",
+  description: "🌿 Additive beruhigende Wirkung, kann müde machen.",
+  tips: [
+    "😴 Mit Müdigkeit rechnen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚗 Kein Fahren nach Einnahme."
+  ]
+},
+"Mirtazapin+2C-B": {
+  level: "caution",
+  description: "🧪 Wirkung von 2C-B kann abgeschwächt oder verändert werden, starke Müdigkeit möglich.",
+  tips: [
+    "⏳ Wirkung beobachten.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😴 Auf Müdigkeit achten."
+  ]
+},
+"Mirtazapin+1V-LSD": {
+  level: "caution",
+  description: "🧬 Wirkung von 1V-LSD kann abgeschwächt oder unberechenbar verändert werden.",
+  tips: [
+    "⏳ Wirkung abwarten.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "❌ Kein Nachlegen."
+  ]
+},
+"Mirtazapin+Diazepam": {
+  level: "danger",
+  description: "💤 Starke Sedierung, Atemdepression möglich – Vorsicht!",
+  tips: [
+    "❌ Nicht gemeinsam einnehmen.",
+    "🧑‍🤝‍🧑 Niemals alleine.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"Mirtazapin+Tramadol": {
+  level: "danger",
+  description: "⚡ Erhöhte Krampfgefahr, starke Sedierung und Wechselwirkungen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Notruf bei Muskelzucken/Bewusstlosigkeit."
+  ]
+},
+"Mirtazapin+Kokain": {
+  level: "danger",
+  description: "⚠️ Kreislaufbelastung, erhöhte Risiken für Psychosen und Unruhe.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Herzrasen oder starker Unruhe."
+  ]
+},
+"Mirtazapin+Amphetamin": {
+  level: "caution",
+  description: "😴 Mirtazapin kann Überstimulation abschwächen, macht aber stark müde.",
+  tips: [
+    "🛏️ Auf Müdigkeit achten.",
+    "⏳ Kein weiteres Nachlegen.",
+    "🧑‍🤝‍🧑 Sitter hilfreich."
+  ]
+},
+"Mirtazapin+3-MMC": {
+  level: "caution",
+  description: "⚠️ Wirkung gegenseitig abschwächend oder unberechenbar, starke Müdigkeit möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Erst Wirkung abwarten.",
+    "😴 Keine weiteren Dosen."
+  ]
+},
+"Mirtazapin+4-MMC": {
+  level: "caution",
+  description: "⚠️ Wirkung gegenseitig abschwächend, verstärkte Nebenwirkungen möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Wirkung einzeln testen.",
+    "🚑 Bei Unwohlsein sofort Hilfe holen."
+  ]
+},
+"Mirtazapin+MDA": {
+  level: "caution",
+  description: "⬇️ Mirtazapin dämpft MDA, starke Müdigkeit möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "😴 Auf starke Sedierung achten.",
+    "🛑 Kein Nachlegen."
+  ]
+},
+"Mirtazapin+6-APB": {
+  level: "caution",
+  description: "⚠️ Wirkung kann sich abschwächen, Müdigkeit und Kreislaufprobleme möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Wirkung beobachten.",
+    "🚑 Bei Problemen Hilfe holen."
+  ]
+},
+"Mirtazapin+HHC": {
+  level: "caution",
+  description: "😪 Verstärkte Müdigkeit und Fressflash möglich.",
+  tips: [
+    "🍽️ Vorräte bereithalten.",
+    "🛌 Nur in sicherer Umgebung.",
+    "😴 Kein Fahren/Bedienen von Maschinen."
+  ]
+},
+"Mirtazapin+GHB": {
+  level: "danger",
+  description: "💤 Verstärkte Müdigkeit, Schwindel und Atemdepression möglich.",
+  tips: [
+    "🛏️ Nur zu Hause/in sicherem Umfeld.",
+    "😴 Keine weiteren sedierenden Substanzen nehmen.",
+    "🧑‍🤝‍🧑 Nicht allein bleiben."
+  ]
+},
+"Mirtazapin+Tilidin": {
+  level: "danger",
+  description: "💤 Sedierung und Atemdepression verstärkt, Risiko für Ohnmacht und Sturz.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"Mirtazapin+DMT": {
+  level: "caution",
+  description: "⬇️ Dämpft oft die psychedelische Wirkung, macht aber müde und kann verwirren.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Wirkung abwarten.",
+    "🛏️ Ruhige Umgebung."
+  ]
+},
+"Mirtazapin+JWH-018": {
+  level: "danger",
+  description: "⚠️ Extrem sedierend, Verwirrung und Blackout möglich.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Niemals alleine.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"Mirtazapin+Mescalin": {
+  level: "caution",
+  description: "⬇️ Psychedelische Wirkung kann abgeschwächt werden, starke Müdigkeit möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "⏳ Wirkung abwarten.",
+    "😴 Keine weiteren Dosen nachlegen."
+  ]
+},
+"Mirtazapin+Benzodiazepine": {
+  level: "caution",
+  description: "🛏️ Additive sedierende Wirkung – starke Müdigkeit, Konzentrationsstörungen möglich.",
+  tips: [
+    "😴 Nur zu Hause/in sicherer Umgebung.",
+    "🚗 Keine Teilnahme am Straßenverkehr.",
+    "🧑‍🤝‍🧑 Sitter hilfreich."
+  ]
+},
+"Mirtazapin+Pilze": {
+  level: "caution",
+  description: "😴 Mirtazapin kann den Trip abschwächen oder beenden, macht aber sehr müde.",
+  tips: [
+    "😌 Nur bei Bad Trip/Unruhe.",
+    "🛏️ Ruhige Umgebung.",
+    "🧑‍🤝‍🧑 Sitter ratsam."
+  ]
+},
+
 };
 
 function fillSelects() {
