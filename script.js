@@ -3,6 +3,10 @@ const substances = [
   "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine"
 ];
 
+function kombiKey(a, b) {
+  return [a, b].sort().join("+");
+}
+
 const kombis = {
   "LSD+MDMA": {
     level: "caution",
