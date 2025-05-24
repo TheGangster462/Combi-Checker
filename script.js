@@ -1,6 +1,6 @@
 const substances = [
   "LSD","Alkohol","THC","MDMA","Ritalin","Mirtazapin","Ketamin","CBD","2C-B","1V-LSD","Diazepam",
-  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze","O-DSMT","Kratom","Methamphetamin"
+  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze","O-DSMT","Kratom","Methamphetamin","Salvia divinorum"
 ];
 
 function kombiKey(a, b) {
@@ -3373,6 +3373,178 @@ const kombis = {
     "🚑 Hilfe holen bei Problemen."
   ]
 },
+// ---- SALVIA DIVINORUM-KOMBIS ----
+"Salvia divinorum+Alkohol": {
+  level: "danger",
+  description: "🍻 Alkohol kann die Dissoziation durch Salvia verstärken und zu Kontrollverlust, Blackouts und Angst führen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend erforderlich.",
+    "🚑 Bei Ohnmacht/Blackout sofort Hilfe holen."
+  ]
+},
+"Salvia divinorum+THC": {
+  level: "danger",
+  description: "🍁 THC kann die psychedelische Wirkung von Salvia unberechenbar verstärken – starke Angst, Panik und Realitätsverlust möglich.",
+  tips: [
+    "⚖️ Sehr niedrige Dosierungen.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"Salvia divinorum+MDMA": {
+  level: "danger",
+  description: "💥 Beide verändern massiv die Wahrnehmung, die Kombination ist kaum steuerbar und kann starke Angst, Kreislaufprobleme und Verwirrung auslösen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"Salvia divinorum+LSD": {
+  level: "danger",
+  description: "🌈 Zwei sehr starke Psychedelika. Wirkung kann extrem überwältigend, desorientierend und beängstigend werden.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Kontrollverlust oder Angst."
+  ]
+},
+"Salvia divinorum+Ketamin": {
+  level: "danger",
+  description: "🌀 Sehr starke Dissoziation und Realitätsverlust möglich, Gefahr von Panik und Unfällen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nüchterner Sitter zwingend.",
+    "🚑 Bei Bewusstlosigkeit Notruf."
+  ]
+},
+"Salvia divinorum+Pilze": {
+  level: "danger",
+  description: "🍄 Zwei intensive Psychedelika. Kombination kann extrem überwältigend und psychisch belastend sein.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Kontrollverlust oder Panik."
+  ]
+},
+"Salvia divinorum+DMT": {
+  level: "danger",
+  description: "🚀 Beide haben kurze, aber extreme psychedelische Peaks – Realitätsverlust, Panik und Kontrollverlust möglich.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei anhaltender Angst."
+  ]
+},
+"Salvia divinorum+CBD": {
+  level: "caution",
+  description: "🌿 CBD könnte Angst und Desorientierung dämpfen, aber Wirkung ist individuell und wenig erforscht.",
+  tips: [
+    "⚖️ Kleine CBD-Dosis ausprobieren.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚗 Kein Fahren/Bedienen von Maschinen."
+  ]
+},
+"Salvia divinorum+Benzodiazepine": {
+  level: "caution",
+  description: "😴 Benzos können Salvia-Wirkung dämpfen oder beenden, machen aber sehr müde und führen zu Gedächtnislücken.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Keine weiteren Substanzen nach Benzo.",
+    "🛏️ Ruhige Umgebung."
+  ]
+},
+"Salvia divinorum+Mirtazapin": {
+  level: "caution",
+  description: "💤 Mirtazapin könnte die Wirkung abschwächen und starke Müdigkeit auslösen.",
+  tips: [
+    "😴 Auf Müdigkeit vorbereitet sein.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "⏳ Wirkung abwarten, kein Nachlegen."
+  ]
+},
+"Salvia divinorum+Amphetamin": {
+  level: "danger",
+  description: "⚡️ Extreme Überstimulation, Desorientierung und Panik möglich. Unvorhersehbare Wechselwirkungen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"Salvia divinorum+Methamphetamin": {
+  level: "danger",
+  description: "⚡️ Beide können zu extremer Unruhe, Panik und psychotischen Zuständen führen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Kontrollverlust."
+  ]
+},
+"Salvia divinorum+Ritalin": {
+  level: "danger",
+  description: "💊 Beide können Unruhe, Angst und Desorientierung verstärken.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"Salvia divinorum+Tramadol": {
+  level: "danger",
+  description: "⚡️ Gefahr für Krampfanfälle, Desorientierung und starke Müdigkeit.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"Salvia divinorum+Tilidin": {
+  level: "danger",
+  description: "💤 Starke Sedierung, Desorientierung und Gefahr von Stürzen oder Blackouts.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"Salvia divinorum+GHB": {
+  level: "danger",
+  description: "☠️ Starke Sedierung und Atemdepression möglich, sehr hohes Risiko für Blackout.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Nüchterner Sitter notwendig.",
+    "🚑 Bei Atemnot/Bewusstlosigkeit Notruf."
+  ]
+},
+"Salvia divinorum+Kratom": {
+  level: "caution",
+  description: "🌿 Wenig untersucht. Kratom könnte die Sedierung verstärken oder Übelkeit auslösen.",
+  tips: [
+    "⚖️ Vorsichtig ausprobieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Übelkeit/Kreislaufproblemen."
+  ]
+},
+"Salvia divinorum+Kokain": {
+  level: "danger",
+  description: "💥 Extreme Überreizung und Desorientierung möglich, unvorhersehbare Wechselwirkungen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"Salvia divinorum+Salvia divinorum": {
+  level: "danger",
+  description: "🔁 Nachlegen kann zu extrem langer und verwirrender Dissoziation führen.",
+  tips: [
+    "❌ Kein Nachlegen.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+}
 };
 
 function fillSelects() {
