@@ -4100,6 +4100,1015 @@ const kombis = {
     "🧑‍🤝‍🧑 Sitter ratsam.",
     "🚑 Bei Atemstillstand/Bewusstlosigkeit sofort Notruf."
   ]
+},
+// DMT (N,N-Dimethyltryptamin) - Kombis
+
+"DMT+Alkohol": {
+  level: "danger",
+  description: "😵 Alkohol kann die DMT-Wirkung stark dämpfen oder unberechenbar machen. Gefahr von Übelkeit, Blackout und Kontrollverlust.",
+  tips: [
+    "🛏️ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⚠️ Ruhige, sichere Umgebung wählen."
+  ]
+},
+"DMT+THC": {
+  level: "caution",
+  description: "🌈 THC kann DMT-Visuals und den Trip verstärken, kann aber auch Angst/Panik fördern.",
+  tips: [
+    "⚖️ Vorsichtig dosieren.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🎧 Ruhige Musik bereitstellen."
+  ]
+},
+"DMT+CBD": {
+  level: "safe",
+  description: "🌱 CBD kann die psychedelische Wirkung leicht dämpfen und hilft bei Unruhe/Ängsten.",
+  tips: [
+    "😌 Bei Unruhe kleine Menge CBD einnehmen.",
+    "🧑‍🤝‍🧑 Sitter trotzdem empfehlenswert.",
+    "🥤 Viel trinken."
+  ]
+},
+"DMT+Ketamin": {
+  level: "danger",
+  description: "🌀 Sehr intensive dissoziativ-psychedelische Erfahrung – Gefahr von Kontrollverlust, Verwirrung und Blackout.",
+  tips: [
+    "⚠️ Nur für sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "⏳ Viel Zeit zur Erholung einplanen."
+  ]
+},
+"DMT+MDMA": {
+  level: "danger",
+  description: "⚡️ Kombi kann starke emotionale Intensität, Überforderung und Kreislaufprobleme verursachen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen sofort Hilfe holen."
+  ]
+},
+"DMT+2C-B": {
+  level: "danger",
+  description: "🎢 Zwei starke Psychedelika: unberechenbare Synergie, Gefahr von Angst, Kontrollverlust und Nachwirkungen.",
+  tips: [
+    "❗ Nur für extrem erfahrene Psychonauten.",
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend.",
+    "⏳ Sehr niedrige Dosierung."
+  ]
+},
+"DMT+1V-LSD": {
+  level: "danger",
+  description: "🚀 Sehr intensive, kurze, aber heftige Erfahrung – psychedelische Effekte und Kontrollverlust möglich.",
+  tips: [
+    "⚠️ Nur für Profis.",
+    "🧑‍🤝‍🧑 Nie alleine.",
+    "⏳ Viel Zeit zur Erholung."
+  ]
+},
+"DMT+Mirtazapin": {
+  level: "caution",
+  description: "⬇️ Dämpft oft die psychedelische Wirkung, macht aber müde und kann verwirren.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Wirkung abwarten.",
+    "🛏️ Ruhige Umgebung."
+  ]
+},
+"DMT+Benzodiazepine": {
+  level: "caution",
+  description: "🧘‍♂️ Benzodiazepine können einen DMT-Trip abbremsen oder beenden, wirken aber stark sedierend.",
+  tips: [
+    "❌ Nicht zur Verstärkung des Trips einsetzen.",
+    "😌 Nur im Ausnahmefall (z.B. Panik) und unter Aufsicht.",
+    "🛌 Nach Einnahme: Ruhig bleiben, nicht allein lassen."
+  ]
+},
+"DMT+GHB": {
+  level: "danger",
+  description: "😵 GHB kann die psychedelischen Effekte von DMT abschwächen oder unvorhersehbar verändern. Erhöhtes Risiko für Kontrollverlust und Blackout.",
+  tips: [
+    "🧑‍🤝‍🧑 Niemals alleine konsumieren.",
+    "⏳ Erst die Wirkung einer Substanz abklingen lassen.",
+    "🚑 Bei Bewusstlosigkeit sofort Notruf."
+  ]
+},
+"DMT+Tramadol": {
+  level: "danger",
+  description: "⚡️ Krampfanfälle, starke Sedierung und unvorhersehbare Wechselwirkungen möglich.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Hilfe holen bei Muskelzucken/Bewusstlosigkeit."
+  ]
+},
+"DMT+Tilidin": {
+  level: "danger",
+  description: "💤 Verstärkte Sedierung und Kontrollverlust möglich.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Bewusstlosigkeit."
+  ]
+},
+"DMT+Methadon": {
+  level: "danger",
+  description: "⬇️ Methadon kann psychedelische Effekte abschwächen, aber starke Sedierung und Atemdepression fördern.",
+  tips: [
+    "🛏️ Nur mit nüchternem Sitter.",
+    "❌ Nicht gemeinsam konsumieren.",
+    "🚑 Bei Problemen sofort Hilfe holen."
+  ]
+},
+"DMT+Kratom": {
+  level: "caution",
+  description: "🌱 Kratom kann beruhigen, aber auch müde machen und den Trip verändern.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😴 Wirkung beobachten.",
+    "❌ Kein weiteres Nachlegen."
+  ]
+},
+"DMT+Methamphetamin": {
+  level: "danger",
+  description: "⚡️ Extreme Überstimulation, Gefahr für Psyche, Kreislauf und Kontrollverlust.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Herzrasen/Verwirrtheit."
+  ]
+},
+"DMT+Kokain": {
+  level: "danger",
+  description: "⚡️ Extreme Belastung für Herz, Psyche und Kreislauf. Risiko für Angst, Überhitzung und Kontrollverlust.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Bei Problemen sofort Hilfe holen."
+  ]
+},
+"DMT+Salvia divinorum": {
+  level: "danger",
+  description: "🌪️ Beide starke Psychedelika, Wirkung unvorhersehbar. Gefahr für Kontrollverlust, Verwirrung, Panik.",
+  tips: [
+    "❗ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe bei Kontrollverlust."
+  ]
+},
+"DMT+HHC": {
+  level: "caution",
+  description: "🍃 HHC kann DMT-Effekte verlängern/abmildern, aber auch Verwirrung oder Müdigkeit fördern.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "⚖️ Kleine Dosierungen.",
+    "😌 Ruhige Umgebung."
+  ]
+},
+"DMT+MDA": {
+  level: "danger",
+  description: "⚡️ Beide wirken sehr stark auf Psyche und Kreislauf, Gefahr für Überforderung, Angst und Nachwirkungen.",
+  tips: [
+    "❗ Nur für erfahrene User.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen Hilfe holen."
+  ]
+},
+"DMT+Pilze": {
+  level: "danger",
+  description: "🚀 Sehr intensive, kaum steuerbare psychedelische Wirkung. Realitätsverlust und Angst möglich.",
+  tips: [
+    "⚖️ Nur für sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "⏳ Keine weiteren Substanzen nachlegen."
+  ]
+},
+"DMT+Mescalin": {
+  level: "danger",
+  description: "🌈 Zwei starke Psychedelika – sehr lange und intensive Trips, Gefahr von Kontrollverlust.",
+  tips: [
+    "❗ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Überforderung."
+  ]
+},
+"DMT+DMT": {
+  level: "danger",
+  description: "🚀 Mehrere Dosen hintereinander verstärken die psychedelische Wirkung, können aber zu extremer Verwirrung und Kontrollverlust führen.",
+  tips: [
+    "⏳ Immer Pause zwischen den Dosen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+// 3-MMC (3-Methylmethcathinon) - Kombis
+
+"3-MMC+Alkohol": {
+  level: "danger",
+  description: "🍸 Erhöhtes Risiko für Herzrasen, Dehydration und Kontrollverlust.",
+  tips: [
+    "💧 Viel trinken, aber kein Alkohol nachlegen.",
+    "🧑‍🤝‍🧑 Sitter empfehlenswert.",
+    "🚑 Bei Unruhe oder Herzproblemen Notruf."
+  ]
+},
+"3-MMC+THC": {
+  level: "caution",
+  description: "😬 Kann Nervosität, Paranoia oder Herzrasen verstärken.",
+  tips: [
+    "🌬️ Sehr langsam dosieren.",
+    "🧑‍🤝‍🧑 Nicht allein konsumieren.",
+    "😌 Bei Unruhe: Ruhe bewahren, ablenken."
+  ]
+},
+"3-MMC+MDMA": {
+  level: "danger",
+  description: "💥 Extreme Stimulation, hohe Belastung für Herz und Psyche.",
+  tips: [
+    "🚫 Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Immer Sitter dabei.",
+    "🚑 Sofort Hilfe bei Symptomen."
+  ]
+},
+"3-MMC+Ketamin": {
+  level: "danger",
+  description: "🌀 Kann Wirkung sehr verändern – Gefahr von Verwirrtheit, Kreislaufproblemen.",
+  tips: [
+    "⏳ Nur mit Pausen.",
+    "🧑‍🤝‍🧑 Nicht alleine.",
+    "🛏️ Ruhiger Rückzugsort."
+  ]
+},
+"3-MMC+GHB": {
+  level: "deadly",
+  description: "☠️ Extreme Belastung für das zentrale Nervensystem, Atemstillstand möglich.",
+  tips: [
+    "🚫 Niemals kombinieren!",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"3-MMC+4-MMC": {
+  level: "danger",
+  description: "💥 Kombination aus zwei Cathinonen – extrem hohe Stimulation, hohe Sucht- und Herzgefahr.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Überhitzung, Krämpfen, Herzproblemen."
+  ]
+},
+"3-MMC+2C-B": {
+  level: "danger",
+  description: "🎢 Beide stimulierend und psychedelisch – Gefahr für Überhitzung, Paranoia, Kontrollverlust.",
+  tips: [
+    "⚠️ Kleine Dosierungen wählen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei starker Unruhe/Kollaps."
+  ]
+},
+"3-MMC+Kokain": {
+  level: "danger",
+  description: "❗ Zwei Stimulanzien – Herzrasen, Krampfanfälle und Psychosen möglich.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"3-MMC+Amphetamin": {
+  level: "danger",
+  description: "💥 Sehr starke Überstimulation – Gefahr für Überhitzung, Herzprobleme und Panik.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter empfehlenswert.",
+    "🚑 Notruf bei Symptomen."
+  ]
+},
+"3-MMC+Ritalin": {
+  level: "danger",
+  description: "⚡️ Beide wirken stimulierend – erhöhte Gefahr für Herzrasen, Schlaflosigkeit und Psychosen.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Nebenwirkungen."
+  ]
+},
+"3-MMC+Mirtazapin": {
+  level: "caution",
+  description: "⚠️ Wirkung gegenseitig abschwächend oder unberechenbar, starke Müdigkeit möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Erst Wirkung abwarten.",
+    "😴 Keine weiteren Dosen."
+  ]
+},
+"3-MMC+Benzodiazepine": {
+  level: "danger",
+  description: "💥 Risiko für Kreislauf, psychische Instabilität, starke Müdigkeit nach Wirkungseinbruch.",
+  tips: [
+    "⏳ Substanzen trennen, nie gleichzeitig konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"3-MMC+Tramadol": {
+  level: "danger",
+  description: "⚡️ Serotonin-Syndrom und Krampfanfälle möglich, sehr riskant.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Muskelzucken, Fieber, Verwirrtheit."
+  ]
+},
+"3-MMC+Tilidin": {
+  level: "danger",
+  description: "💤 Gefahr für starke Müdigkeit, Atemdepression und Kontrollverlust.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Notruf bei Bewusstlosigkeit."
+  ]
+},
+"3-MMC+Methadon": {
+  level: "danger",
+  description: "⚠️ Sehr hohe Belastung für Kreislauf und Psyche, Risiko für Atemdepression.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Problemen holen."
+  ]
+},
+"3-MMC+Kratom": {
+  level: "caution",
+  description: "🌱 Kann Wirkung von 3-MMC dämpfen, aber auch Müdigkeit und Übelkeit verstärken.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "😌 Wirkung beobachten.",
+    "❌ Kein weiteres Nachlegen."
+  ]
+},
+"3-MMC+Methamphetamin": {
+  level: "danger",
+  description: "⚡️ Extreme Stimulation, Gefahr für Kreislauf, Psyche und Überhitzung.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Symptomen."
+  ]
+},
+"3-MMC+DMT": {
+  level: "danger",
+  description: "⚡️ Zwei stark psychoaktive Substanzen – Wirkung schwer vorhersagbar, Gefahr für Überforderung und Kreislaufprobleme.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"3-MMC+Salvia divinorum": {
+  level: "danger",
+  description: "🌪️ Wirkung kaum vorhersehbar, Gefahr von Verwirrung, Kontrollverlust und Kreislaufbelastung.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"3-MMC+HHC": {
+  level: "caution",
+  description: "🍃 Wirkung kann sich gegenseitig verstärken oder abschwächen – Unruhe, Müdigkeit und Kreislaufprobleme möglich.",
+  tips: [
+    "⚖️ Kleine Dosierung.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😌 Bei Problemen abbrechen."
+  ]
+},
+"3-MMC+Pilze": {
+  level: "danger",
+  description: "💣 Extrem intensive und schwer steuerbare psychedelisch-stimulierende Erfahrung – hohes Risiko für Angst, Überhitzung und Kontrollverlust.",
+  tips: [
+    "❗ Nur für sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend.",
+    "⏳ Genug Zeit für Erholung einplanen."
+  ]
+},
+"3-MMC+3-MMC": {
+  level: "danger",
+  description: "💥 Nachlegen kann zu sehr starker Überreizung, Angst, Kreislaufproblemen und Psychosen führen.",
+  tips: [
+    "⏳ Wirkung abwarten, nicht nachlegen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Nebenwirkungen."
+  ]
+},
+// 4-MMC (Mephedron) - Kombis
+
+"4-MMC+Alkohol": {
+  level: "danger",
+  description: "🍷 Erhöht Enthemmung und Herzbelastung, Gefahr von Überhitzung und Kontrollverlust.",
+  tips: [
+    "💧 Viel Wasser trinken.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Symptomen sofort Hilfe holen."
+  ]
+},
+"4-MMC+THC": {
+  level: "caution",
+  description: "😳 Kann Paranoia oder starke Euphorie verstärken, individuell sehr unterschiedlich.",
+  tips: [
+    "⚖️ Kleine Dosen.",
+    "🧑‍🤝‍🧑 Nie alleine.",
+    "🚫 Nicht während Peak kombinieren."
+  ]
+},
+"4-MMC+MDMA": {
+  level: "danger",
+  description: "⚡️ Beide wirken sehr stark stimulierend – hohe Überhitzungs- und Krampfgefahr.",
+  tips: [
+    "❌ Nie kombinieren.",
+    "🧑‍⚕️ Puls und Temperatur überwachen.",
+    "🚑 Bei Krämpfen/Herzrasen sofort Notruf."
+  ]
+},
+"4-MMC+Ketamin": {
+  level: "danger",
+  description: "😵 Dissoziation und Überstimulation möglich, Verwirrtheit.",
+  tips: [
+    "🛏️ Ruhige Umgebung.",
+    "🧑‍🤝‍🧑 Nicht allein konsumieren.",
+    "⏳ Erst Wirkung einer Substanz abwarten."
+  ]
+},
+"4-MMC+GHB": {
+  level: "deadly",
+  description: "☠️ Lebensgefährliche Kombination – Atemdepression möglich.",
+  tips: [
+    "🚫 Nie gemeinsam konsumieren.",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern bleiben."
+  ]
+},
+"4-MMC+3-MMC": {
+  level: "danger",
+  description: "💥 Kombination aus zwei Cathinonen – extrem hohe Stimulation, hohe Sucht- und Herzgefahr.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Überhitzung, Krämpfen, Herzproblemen."
+  ]
+},
+"4-MMC+2C-B": {
+  level: "danger",
+  description: "🎢 Beide stimulierend und psychedelisch – Gefahr für Überhitzung, Paranoia, Kontrollverlust.",
+  tips: [
+    "⚠️ Kleine Dosierungen wählen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei starker Unruhe/Kollaps."
+  ]
+},
+"4-MMC+Kokain": {
+  level: "danger",
+  description: "❗ Zwei Stimulanzien – Herzrasen, Krampfanfälle und Psychosen möglich.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"4-MMC+Amphetamin": {
+  level: "danger",
+  description: "💥 Extrem starke Stimulation – Gefahr von Überhitzung, Krampfanfällen und Psychosen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍⚕️ Puls und Temperatur kontrollieren.",
+    "🚑 Notruf bei Krämpfen oder Kollaps."
+  ]
+},
+"4-MMC+Ritalin": {
+  level: "danger",
+  description: "⚡️ Beide wirken stimulierend – erhöhte Gefahr für Herzrasen, Schlaflosigkeit und Psychosen.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Nebenwirkungen."
+  ]
+},
+"4-MMC+Mirtazapin": {
+  level: "caution",
+  description: "⚠️ Wirkung gegenseitig abschwächend, verstärkte Nebenwirkungen möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Wirkung einzeln testen.",
+    "🚑 Bei Unwohlsein sofort Hilfe holen."
+  ]
+},
+"4-MMC+Benzodiazepine": {
+  level: "danger",
+  description: "💥 Risiko für Kreislauf, psychische Instabilität, starke Müdigkeit nach Wirkungseinbruch.",
+  tips: [
+    "⏳ Substanzen trennen, nie gleichzeitig konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"4-MMC+Tramadol": {
+  level: "danger",
+  description: "⚡️ Serotonin-Syndrom und Krampfanfälle möglich, sehr riskant.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Muskelzucken, Fieber, Verwirrtheit."
+  ]
+},
+"4-MMC+Tilidin": {
+  level: "danger",
+  description: "💤 Gefahr für starke Müdigkeit, Atemdepression und Kontrollverlust.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Notruf bei Bewusstlosigkeit."
+  ]
+},
+"4-MMC+Methadon": {
+  level: "danger",
+  description: "⚠️ Sehr hohe Belastung für Kreislauf und Psyche, Risiko für Atemdepression.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Problemen holen."
+  ]
+},
+"4-MMC+Kratom": {
+  level: "caution",
+  description: "🌱 Kann Wirkung von 4-MMC dämpfen, aber auch Müdigkeit und Übelkeit verstärken.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "😌 Wirkung beobachten.",
+    "❌ Kein weiteres Nachlegen."
+  ]
+},
+"4-MMC+Methamphetamin": {
+  level: "danger",
+  description: "⚡️ Extreme Stimulation, Gefahr für Kreislauf, Psyche und Überhitzung.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Symptomen."
+  ]
+},
+"4-MMC+DMT": {
+  level: "danger",
+  description: "⚡️ Zwei stark psychoaktive Substanzen – Wirkung schwer vorhersagbar, Gefahr für Überforderung und Kreislaufprobleme.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"4-MMC+Salvia divinorum": {
+  level: "danger",
+  description: "🌪️ Wirkung kaum vorhersehbar, Gefahr von Verwirrung, Kontrollverlust und Kreislaufbelastung.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"4-MMC+HHC": {
+  level: "caution",
+  description: "🍃 Wirkung kann sich gegenseitig verstärken oder abschwächen – Unruhe, Müdigkeit und Kreislaufprobleme möglich.",
+  tips: [
+    "⚖️ Kleine Dosierung.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😌 Bei Problemen abbrechen."
+  ]
+},
+"4-MMC+Pilze": {
+  level: "danger",
+  description: "💣 Extrem intensive und schwer steuerbare psychedelisch-stimulierende Erfahrung – hohes Risiko für Angst, Überhitzung und Kontrollverlust.",
+  tips: [
+    "❗ Nur für sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend.",
+    "⏳ Genug Zeit für Erholung einplanen."
+  ]
+},
+"4-MMC+4-MMC": {
+  level: "deadly",
+  description: "☠️ Sehr hohes Risiko für Überhitzung, Krampfanfälle, Herzinfarkt und Psychosen.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🚑 Hilfe holen bei Problemen.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren."
+  ]
+},
+// MDA - Kombis
+
+"MDA+MDMA": {
+  level: "danger",
+  description: "🔥 Extreme Stimulation, Gefahr für Herz und Psyche.",
+  tips: [
+    "🧑‍⚕️ Beide Substanzen einzeln bevorzugen.",
+    "💧 Viel trinken.",
+    "🚑 Hilfe holen bei Beschwerden."
+  ]
+},
+"MDA+2C-B": {
+  level: "danger",
+  description: "🎢 Sehr intensive psychedelische Erfahrung, kaum steuerbar.",
+  tips: [
+    "⚖️ Kleine Dosierung.",
+    "🧑‍🤝‍🧑 Nie ohne Sitter.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"MDA+Alkohol": {
+  level: "danger",
+  description: "🍻 Verstärkte Kreislaufbelastung, erhöhte Enthemmung und Kontrollverlust.",
+  tips: [
+    "💧 Viel Wasser trinken.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Bewusstlosigkeit Hilfe holen."
+  ]
+},
+"MDA+THC": {
+  level: "caution",
+  description: "🍁 Kann Euphorie verstärken, aber auch Angst und Herzrasen auslösen.",
+  tips: [
+    "⚖️ Kleine Dosierung.",
+    "🧑‍🤝‍🧑 Sitter empfehlenswert.",
+    "😌 Ruhige Umgebung."
+  ]
+},
+"MDA+Ketamin": {
+  level: "danger",
+  description: "🌀 Sehr intensive Dissoziation und Psychedelik – Gefahr für Kontrollverlust und Verwirrtheit.",
+  tips: [
+    "❗ Nur für sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"MDA+GHB": {
+  level: "danger",
+  description: "⚡️ Herz und Kreislauf werden stark belastet. Risiko für Überhitzung, Atemprobleme und Kontrollverlust.",
+  tips: [
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "🚑 Bei Problemen Notruf.",
+    "⏳ Besser einzeln konsumieren."
+  ]
+},
+"MDA+Benzodiazepine": {
+  level: "danger",
+  description: "💥 Gefahr für Kreislauf, Sedierung und Blackout – besonders riskant bei Überhitzung oder Dehydrierung.",
+  tips: [
+    "🚫 Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Notruf bei Bewusstlosigkeit oder Atemnot."
+  ]
+},
+"MDA+Mirtazapin": {
+  level: "caution",
+  description: "⬇️ Mirtazapin dämpft MDA, starke Müdigkeit möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "😴 Auf starke Sedierung achten.",
+    "🛑 Kein Nachlegen."
+  ]
+},
+"MDA+4-MMC": {
+  level: "danger",
+  description: "⚡️ Zwei starke Stimulanzien – hohes Risiko für Kreislaufversagen, Überhitzung und Psychosen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Problemen."
+  ]
+},
+"MDA+3-MMC": {
+  level: "danger",
+  description: "💥 Zwei stimulierende Substanzen – sehr hohe Belastung für Herz und Psyche.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Herzrasen, Unruhe, Überhitzung."
+  ]
+},
+"MDA+Kokain": {
+  level: "deadly",
+  description: "☠️ Zwei starke Stimulanzien – hohes Risiko für Herzinfarkt, Krämpfe und Psychosen.",
+  tips: [
+    "❌ Auf keinen Fall kombinieren!",
+    "🚑 Notruf bei Symptomen.",
+    "🧑‍🤝‍🧑 Sitter muss nüchtern sein."
+  ]
+},
+"MDA+Amphetamin": {
+  level: "danger",
+  description: "💥 Extrem starke Stimulation – Überhitzung, Panik, Kreislaufprobleme möglich.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍⚕️ Puls/Kreislauf beobachten.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"MDA+Ritalin": {
+  level: "danger",
+  description: "⚡️ Beide wirken stimulierend – sehr hohe Belastung für Herz und Psyche.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Beschwerden Hilfe holen."
+  ]
+},
+"MDA+Tramadol": {
+  level: "danger",
+  description: "⚡️ Risiko für Serotonin-Syndrom, Krampfanfälle und starke Nebenwirkungen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Muskelzucken/Fieber sofort Notruf."
+  ]
+},
+"MDA+Tilidin": {
+  level: "danger",
+  description: "💤 Gefahr für Sedierung, Atemdepression und Kontrollverlust.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Notruf bei Bewusstlosigkeit."
+  ]
+},
+"MDA+Methadon": {
+  level: "danger",
+  description: "⚠️ Sehr hohe Belastung für Kreislauf und Psyche, Risiko für Atemdepression.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Problemen holen."
+  ]
+},
+"MDA+Kratom": {
+  level: "caution",
+  description: "🌱 Kann sedierend wirken und MDA dämpfen, aber auch Nebenwirkungen wie Übelkeit verstärken.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "😌 Wirkung beobachten.",
+    "❌ Kein weiteres Nachlegen."
+  ]
+},
+"MDA+Methamphetamin": {
+  level: "danger",
+  description: "⚡️ Extreme Stimulation, Gefahr für Kreislauf, Psyche und Überhitzung.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Symptomen."
+  ]
+},
+"MDA+DMT": {
+  level: "danger",
+  description: "🚀 Sehr intensive psychedelische Erfahrung, Gefahr für Überforderung und Kontrollverlust.",
+  tips: [
+    "⚠️ Nur für sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Trip-Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"MDA+Salvia divinorum": {
+  level: "danger",
+  description: "🌪️ Wirkung kaum vorhersehbar, Gefahr von Verwirrung, Kontrollverlust und Kreislaufbelastung.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"MDA+HHC": {
+  level: "caution",
+  description: "🍃 Kann Wirkung verstärken oder abschwächen, Gefahr für Unruhe oder starke Müdigkeit.",
+  tips: [
+    "⚖️ Kleine Dosierung.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😌 Bei Problemen abbrechen."
+  ]
+},
+"MDA+Pilze": {
+  level: "danger",
+  description: "💣 Intensivierende Kombination – Gefahr für Kontrollverlust, Angst und psychische Nachwirkungen.",
+  tips: [
+    "❗ Nur sehr erfahrene User.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "⏳ Viel Zeit zur Erholung."
+  ]
+},
+"MDA+MDA": {
+  level: "deadly",
+  description: "☠️ Doppelte Dosis bedeutet extrem hohe Belastung für Herz und Psyche, Gefahr für Überhitzung und Serotoninsyndrom.",
+  tips: [
+    "❌ Kein Nachlegen.",
+    "🚑 Notruf bei Überhitzung, Krämpfen, Verwirrtheit.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren."
+  ]
+},
+// JWH-018 - Kombis
+
+"JWH-018+THC": {
+  level: "danger",
+  description: "⚠️ Synthetisches Cannabinoid (JWH-018) kann mit THC zusammen zu extremen Psychosen führen.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Bei starken Nebenwirkungen Hilfe holen."
+  ]
+},
+"JWH-018+Alkohol": {
+  level: "danger",
+  description: "🍶 Gefahr von Blackouts, extremer Übelkeit und Psychosen.",
+  tips: [
+    "🛏️ Nur zu Hause, nie unterwegs.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Kollaps oder Atemproblemen sofort Notruf."
+  ]
+},
+"JWH-018+CBD": {
+  level: "caution",
+  description: "🌱 CBD kann die Wirkung von JWH-018 leicht abmildern, aber nicht aufheben.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht zu viel konsumieren.",
+    "😌 Bei Überdosierung versuchen, zu entspannen.",
+    "📞 Hilfe rufen bei starken Symptomen."
+  ]
+},
+"JWH-018+MDMA": {
+  level: "danger",
+  description: "⚠️ Sehr unberechenbar, Gefahr für Kreislauf und Psyche.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter unbedingt erforderlich.",
+    "🔬 Nie hohe Dosierungen.",
+    "🚑 Bei Psychosezeichen Notruf."
+  ]
+},
+"JWH-018+Ketamin": {
+  level: "danger",
+  description: "🌫️ Kombination kann zu Verwirrtheit, Blackout und extrem starker Sedierung führen.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🛏️ Ruhige Umgebung.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"JWH-018+Benzodiazepine": {
+  level: "danger",
+  description: "🚩 Unberechenbare Verstärkung von Sedierung und Psychoserisiko, extreme Verwirrtheit und Kontrollverlust möglich.",
+  tips: [
+    "⚠️ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei starken Nebenwirkungen sofort Hilfe holen."
+  ]
+},
+"JWH-018+GHB": {
+  level: "danger",
+  description: "⚠️ Gefahr von starker Sedierung, Verwirrtheit und Kontrollverlust. Atemstillstand möglich.",
+  tips: [
+    "🛏️ Nur mit nüchternem Sitter.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🚑 Bei Atemnot/Bewusstlosigkeit Notruf."
+  ]
+},
+"JWH-018+Amphetamin": {
+  level: "danger",
+  description: "⚠️ Synthetisches Cannabinoid plus Stimulans: Unberechenbare, oft toxische Effekte.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Hilfe bei Psychose/Kreislaufproblemen."
+  ]
+},
+"JWH-018+4-MMC": {
+  level: "danger",
+  description: "⚡️ Kombination kann Herzrasen, Angst, Psychosen und schwere Nebenwirkungen auslösen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen Hilfe holen."
+  ]
+},
+"JWH-018+3-MMC": {
+  level: "danger",
+  description: "⚡️ Sehr unberechenbar, Gefahr für Kreislauf, Psychose und Kontrollverlust.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"JWH-018+Mirtazapin": {
+  level: "danger",
+  description: "⚠️ Extrem sedierend, Verwirrung und Blackout möglich.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Niemals alleine.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"JWH-018+Kokain": {
+  level: "danger",
+  description: "⚠️ Kann psychotische Symptome, starke Verwirrung und Kreislaufprobleme auslösen.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"JWH-018+Ritalin": {
+  level: "danger",
+  description: "😰 Unruhe, Angst, Psychose und Herzrasen möglich.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"JWH-018+HHC": {
+  level: "danger",
+  description: "🍃 Kombination mit anderen Cannabinoiden kann Wirkung unberechenbar verstärken (Psychose, Angst, Kreislaufprobleme).",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe bei Kontrollverlust."
+  ]
+},
+"JWH-018+Kratom": {
+  level: "danger",
+  description: "🌱 Sehr starke Sedierung, Übelkeit und Verwirrung möglich.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei starker Benommenheit Hilfe holen."
+  ]
+},
+"JWH-018+Tilidin": {
+  level: "danger",
+  description: "💤 Gefahr für starke Sedierung, Kontrollverlust und Atemprobleme.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"JWH-018+Tramadol": {
+  level: "danger",
+  description: "⚡️ Sehr starke Sedierung, Verwirrtheit und Krampfanfälle möglich.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Muskelzucken/Bewusstlosigkeit."
+  ]
+},
+"JWH-018+Methamphetamin": {
+  level: "danger",
+  description: "⚡️ Unberechenbare Wirkung, Risiko für Psychose, Herzrasen und Kontrollverlust.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"JWH-018+DMT": {
+  level: "danger",
+  description: "🚀 Kann psychedelische Effekte unvorhersehbar und sehr unangenehm machen, Gefahr für Angst und Kontrollverlust.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Kontrollverlust Hilfe holen."
+  ]
+},
+"JWH-018+MDA": {
+  level: "danger",
+  description: "💥 Gefahr für extreme Verwirrung, Kreislaufprobleme und Psychosen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen Notruf."
+  ]
+},
+"JWH-018+Methadon": {
+  level: "danger",
+  description: "💤 Beide sehr sedierend, Gefahr für Atemdepression und Blackout.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Hilfe bei Bewusstlosigkeit."
+  ]
+},
+"JWH-018+JWH-018": {
+  level: "danger",
+  description: "🚩 Nachlegen von synthetischen Cannabinoiden kann zu Psychosen, Krämpfen und schweren Vergiftungen führen.",
+  tips: [
+    "❌ Kein Nachlegen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei schweren Nebenwirkungen."
+  ]
 }
 };
 
