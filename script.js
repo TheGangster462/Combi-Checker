@@ -1,6 +1,7 @@
 const substances = [
   "LSD","Alkohol","THC","MDMA","Ritalin","Mirtazapin","Ketamin","CBD","2C-B","1V-LSD","Diazepam",
-  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze","O-DSMT","Kratom","Methamphetamin","Salvia divinorum"
+  "Tramadol","Kokain","Amphetamin","3-MMC","4-MMC","MDA","6-APB","HHC","GHB","Tilidin","DMT","JWH-018","Mescalin","Benzodiazepine","Pilze","O-DSMT","Kratom","Methamphetamin","Salvia divinorum",
+  "Methadon"
 ];
 
 function kombiKey(a, b) {
@@ -3543,6 +3544,561 @@ const kombis = {
     "❌ Kein Nachlegen.",
     "🧑‍🤝‍🧑 Nie allein konsumieren.",
     "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+// HHC-Kombinationen
+
+"HHC+THC": {
+  level: "caution",
+  description: "🍃 Beide wirken ähnlich, können sich gegenseitig verstärken. Stärkere Sedierung und Verwirrtheit möglich.",
+  tips: [
+    "⚖️ Kleine Mengen probieren.",
+    "🧑‍🤝‍🧑 Nie alleine.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"HHC+CBD": {
+  level: "safe",
+  description: "🌱 Kann beruhigend wirken, eignet sich zum Herunterkommen.",
+  tips: [
+    "💤 Nicht zu viel – sonst müde.",
+    "🧑‍🤝‍🧑 Sitter hilfreich bei Unsicherheit.",
+    "🚗 Kein Auto fahren."
+  ]
+},
+"HHC+Alkohol": {
+  level: "danger",
+  description: "🍸 Gesteigerte Müdigkeit, Kontrollverlust, Blackout möglich.",
+  tips: [
+    "🛏️ Liegenbleiben.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Atemproblemen sofort Hilfe."
+  ]
+},
+"HHC+MDMA": {
+  level: "caution",
+  description: "😊 Kann Euphorie, aber auch starke Müdigkeit, Übelkeit und Herzrasen auslösen.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine.",
+    "⚖️ Niedrige Dosis.",
+    "🚑 Hilfe bei Problemen."
+  ]
+},
+"HHC+Amphetamin": {
+  level: "danger",
+  description: "💥 Beide wirken stimulierend – Risiko für Herzrasen, Paranoia und Kreislaufprobleme.",
+  tips: [
+    "⚖️ Niedrig dosieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Unruhe/Herzrasen abbrechen."
+  ]
+},
+"HHC+Ritalin": {
+  level: "danger",
+  description: "⚡ Kombi kann zu Nervosität, Herzrasen und starker Unruhe führen.",
+  tips: [
+    "⏳ Sehr langsam dosieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "❤️ Bei Herzproblemen meiden."
+  ]
+},
+"HHC+Benzodiazepine": {
+  level: "caution",
+  description: "💤 Kombi kann starke Sedierung, Koordinationsprobleme und Blackouts auslösen.",
+  tips: [
+    "🛏️ Nicht alleine konsumieren.",
+    "😴 Keine Maschinen bedienen/Auto fahren.",
+    "🚑 Bei extremer Schläfrigkeit Hilfe holen."
+  ]
+},
+"HHC+Tramadol": {
+  level: "danger",
+  description: "😴 Starke Müdigkeit, Koordinationsprobleme und Verwirrtheit möglich. Erhöhte Unfallgefahr.",
+  tips: [
+    "🛏️ Nur zu Hause/in sicherer Umgebung.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚗 Kein Fahren/Bedienen von Maschinen."
+  ]
+},
+"HHC+Tilidin": {
+  level: "danger",
+  description: "💤 Verstärkte Sedierung, Schwindel und Atemdepression möglich.",
+  tips: [
+    "❌ Kombination meiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Bewusstlosigkeit Hilfe holen."
+  ]
+},
+"HHC+GHB": {
+  level: "caution",
+  description: "💤 Beide wirken beruhigend und können die Sedierung verstärken. Blackout-Gefahr!",
+  tips: [
+    "🛏️ Nicht alleine, ruhige Umgebung.",
+    "😴 Kein Fahren/Bedienen von Maschinen.",
+    "🚑 Bei starker Benommenheit Notruf."
+  ]
+},
+"HHC+JWH-018": {
+  level: "danger",
+  description: "🚩 Zwei Cannabinoide, eines synthetisch: Extreme Überforderung von Kreislauf und Psyche möglich.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Psychose/Kollaps."
+  ]
+},
+"HHC+Kratom": {
+  level: "danger",
+  description: "🌿 Beide können sedierend wirken, Atemdepression und starke Müdigkeit möglich.",
+  tips: [
+    "🛏️ Nur zu Hause/in ruhiger Umgebung.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🚑 Notruf bei Bewusstlosigkeit oder Atemproblemen."
+  ]
+},
+"HHC+Methamphetamin": {
+  level: "danger",
+  description: "💥 Beide können Unruhe, Herzrasen und starke Verwirrtheit auslösen. Psychosegefahr!",
+  tips: [
+    "⚖️ Dosierung extrem niedrig halten.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Bei Unruhe oder Psychosezeichen Notruf."
+  ]
+},
+"HHC+Ketamin": {
+  level: "danger",
+  description: "🌫️ Verstärkte Dissoziation, Müdigkeit und Kontrollverlust möglich.",
+  tips: [
+    "💡 Licht gedimmt, ruhige Umgebung.",
+    "🚨 Nicht alleine konsumieren.",
+    "📉 Niedrige Dosierung."
+  ]
+},
+"HHC+LSD": {
+  level: "caution",
+  description: "🔀 HHC kann LSD-Trip verstärken, verändern oder verlängern – mehr Sedierung, teils Verwirrung.",
+  tips: [
+    "🔎 Kleine Dosierungen wählen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🛏️ Viel Zeit zur Erholung."
+  ]
+},
+"HHC+1V-LSD": {
+  level: "caution",
+  description: "🔀 HHC kann 1V-LSD-Trip verstärken oder sedieren, Wirkung kaum vorhersagbar.",
+  tips: [
+    "⚖️ Sehr niedrige Dosierungen.",
+    "🧑‍🤝‍🧑 Mit erfahrenem Sitter.",
+    "⏳ Wirkung beobachten."
+  ]
+},
+"HHC+2C-B": {
+  level: "caution",
+  description: "🤹‍♂️ Kombination kann visuelle Effekte verstärken, aber auch sedieren – Wirkung individuell.",
+  tips: [
+    "🧑‍🤝‍🧑 Nur mit Vertrauten.",
+    "🎢 Kleine Dosierung.",
+    "🚫 Nicht am Peak kombinieren."
+  ]
+},
+"HHC+MDMA": {
+  level: "caution",
+  description: "😊 Kann Euphorie, aber auch starke Müdigkeit, Übelkeit und Herzrasen auslösen.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine.",
+    "⚖️ Niedrige Dosis.",
+    "🚑 Hilfe bei Problemen."
+  ]
+},
+"HHC+Diazepam": {
+  level: "caution",
+  description: "💤 Sehr starke Sedierung möglich, Koordinations- und Gedächtnisprobleme.",
+  tips: [
+    "🛏️ Nur zu Hause.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"HHC+Kokain": {
+  level: "danger",
+  description: "⚡️ Herz und Kreislauf werden stark belastet, Gefahr von Paranoia und Kontrollverlust.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Hilfe holen bei Beschwerden."
+  ]
+},
+"HHC+Methadon": {
+  level: "danger",
+  description: "💤 Beide sind sedierend – Gefahr für Atemdepression und Blackout.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🛏️ Nur zu Hause/in sicherer Umgebung.",
+    "🚑 Bei Bewusstlosigkeit Notruf."
+  ]
+},
+"HHC+Salvia divinorum": {
+  level: "caution",
+  description: "🌿 Salvia kann unter HHC-Verstärkung noch verwirrender wirken. Kontrollverlust und starker Realitätsverlust möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Nie alleine konsumieren.",
+    "⚖️ Sehr niedrige Dosierung.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+// 2C-B-Kombinationen
+
+"2C-B+LSD": {
+  level: "danger",
+  description: "🧠 Sehr intensive psychedelische Synergie. Wirkung kaum vorhersehbar.",
+  tips: [
+    "⚖️ Niedrige Dosierungen verwenden.",
+    "🧑‍🤝‍🧑 Trip-Sitter unbedingt erforderlich.",
+    "⏳ Viel Zeit zur Erholung."
+  ]
+},
+"2C-B+MDMA": {
+  level: "danger",
+  description: "🎢 Sehr intensiver, chaotischer Trip möglich – Herzbelastung, Kontrollverlust.",
+  tips: [
+    "🔎 Kleine Dosierungen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚫 Nicht nachlegen."
+  ]
+},
+"2C-B+Alkohol": {
+  level: "danger",
+  description: "🌪️ Verstärkte Wahrnehmungsverzerrung, Übelkeit, Kontrollverlust.",
+  tips: [
+    "⚠️ Langsam dosieren.",
+    "🏡 Nicht in der Öffentlichkeit.",
+    "💤 Rückzugsort vorbereiten."
+  ]
+},
+"2C-B+THC": {
+  level: "caution",
+  description: "🤹‍♂️ Wirkung schwer vorhersehbar – teils 'lustig', teils unangenehm.",
+  tips: [
+    "🧑‍🤝‍🧑 Nur mit Vertrauten.",
+    "🎢 Kleine Dosierung.",
+    "🚫 Nicht am Peak kombinieren."
+  ]
+},
+"2C-B+Ketamin": {
+  level: "danger",
+  description: "🧠 Sehr intensive psychedelische Erfahrung, Wirkung schwer steuerbar.",
+  tips: [
+    "⚖️ Kleine Dosierungen.",
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend erforderlich.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"2C-B+Amphetamin": {
+  level: "danger",
+  description: "🎢 Sehr intensive, stimulierende und psychedelische Wirkung. Hohe Gefahr für Überhitzung, Panik, Kreislaufprobleme.",
+  tips: [
+    "⚖️ Kleine Dosen, Wirkung abwarten.",
+    "🧑‍🤝‍🧑 Nie allein konsumieren.",
+    "🚑 Bei Schwindel/Herzrasen sofort Hilfe."
+  ]
+},
+"2C-B+Benzodiazepine": {
+  level: "caution",
+  description: "🛌 Benzodiazepine dämpfen 2C-B-Trips, können aber sehr müde und benommen machen.",
+  tips: [
+    "😌 Nur bei Bedarf (Unruhe/Bad Trip).",
+    "🛏️ Nicht allein bleiben.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"2C-B+Mirtazapin": {
+  level: "caution",
+  description: "🧪 Wirkung von 2C-B kann abgeschwächt oder verändert werden, starke Müdigkeit möglich.",
+  tips: [
+    "⏳ Wirkung beobachten.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😴 Auf Müdigkeit achten."
+  ]
+},
+"2C-B+Tramadol": {
+  level: "danger",
+  description: "⚡️ Beide können Krämpfe, Verwirrung und starke Sedierung verursachen.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Problemen sofort Hilfe holen."
+  ]
+},
+"2C-B+Ritalin": {
+  level: "danger",
+  description: "⚡️ Gefahr für Herzrasen, Panik und psychische Instabilität.",
+  tips: [
+    "⏳ Substanzen einzeln testen.",
+    "🧑‍🤝‍🧑 Sitter empfehlenswert.",
+    "🚑 Bei Unruhe/Herzrasen abbrechen."
+  ]
+},
+"2C-B+1V-LSD": {
+  level: "danger",
+  description: "🧠 Sehr intensive psychedelische Synergie, Wirkung schwer einschätzbar.",
+  tips: [
+    "⚖️ Niedrige Dosierung.",
+    "🧑‍🤝‍🧑 Trip-Sitter unerlässlich.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"2C-B+CBD": {
+  level: "safe",
+  description: "🌱 CBD kann 2C-B leicht beruhigen und hilft bei Unruhe.",
+  tips: [
+    "😌 CBD zur 'Notbremse' nutzen.",
+    "🧑‍🤝‍🧑 Sitter trotzdem sinnvoll.",
+    "🥤 Viel trinken."
+  ]
+},
+"2C-B+GHB": {
+  level: "danger",
+  description: "🛌 Beide Substanzen wirken auf das zentrale Nervensystem, verstärkte Sedierung und Kontrollverlust möglich.",
+  tips: [
+    "🛏️ Nicht alleine konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Bewusstlosigkeit Hilfe holen."
+  ]
+},
+"2C-B+Kratom": {
+  level: "caution",
+  description: "🌿 Kratom kann sedierend wirken, die 2C-B-Erfahrung verändern und vernebeln.",
+  tips: [
+    "🛏️ Ruhige Umgebung.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😴 Auf Müdigkeit achten."
+  ]
+},
+"2C-B+HHC": {
+  level: "caution",
+  description: "🤹‍♂️ Kombination kann visuelle Effekte verstärken, aber auch sedieren – Wirkung individuell.",
+  tips: [
+    "🧑‍🤝‍🧑 Nur mit Vertrauten.",
+    "🎢 Kleine Dosierung.",
+    "🚫 Nicht am Peak kombinieren."
+  ]
+},
+"2C-B+Kokain": {
+  level: "danger",
+  description: "⚡️ Starke Kreislaufbelastung, Gefahr für Angst/Panik und Kontrollverlust.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Beschwerden."
+  ]
+},
+"2C-B+Diazepam": {
+  level: "caution",
+  description: "🛌 Diazepam kann 2C-B dämpfen, macht aber sehr müde und benommen.",
+  tips: [
+    "😌 Nur bei Bad Trip.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"2C-B+Salvia divinorum": {
+  level: "danger",
+  description: "🌪️ Beide psychedelisch, Wirkung kann extrem chaotisch, verwirrend und kaum steuerbar werden.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend.",
+    "🚑 Hilfe holen bei Kontrollverlust."
+  ]
+},
+"2C-B+Methamphetamin": {
+  level: "danger",
+  description: "💥 Beide wirken sehr stimulierend – Herzrasen, Paranoia und Psychosegefahr.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Psychose/Herzproblemen."
+  ]
+},
+"2C-B+Methadon": {
+  level: "danger",
+  description: "💤 Beide wirken zentralnervös, verstärkte Müdigkeit, Atemdepression und Kontrollverlust möglich.",
+  tips: [
+    "🛏️ Nicht alleine konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Atemnot/Bewusstlosigkeit Notruf."
+  ]
+},
+"2C-B+Pilze": {
+  level: "danger",
+  description: "🎢 Beide sind psychedelisch, Wirkung kaum vorhersehbar. Gefahr von Überforderung und Kontrollverlust.",
+  tips: [
+    "❗ Sehr vorsichtig dosieren.",
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend.",
+    "⏳ Genug Zeit für Erholung einplanen."
+  ]
+},
+// Methadon (Methadone) - Kombis
+
+"Methadon+Alkohol": {
+  level: "deadly",
+  description: "☠️ Beide wirken atemdepressiv – sehr hohes Risiko für Atemstillstand, Koma und Tod.",
+  tips: [
+    "❌ Niemals gemeinsam konsumieren!",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"Methadon+Benzodiazepine": {
+  level: "deadly",
+  description: "☠️ Lebensgefahr durch Atemdepression, Koma und Tod, selbst bei therapeutischen Dosen.",
+  tips: [
+    "❌ Kombination streng vermeiden!",
+    "🚑 Notruf bei Atemproblemen/Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter muss absolut nüchtern bleiben."
+  ]
+},
+"Methadon+GHB": {
+  level: "deadly",
+  description: "☠️ Sehr stark atemdepressiv – Lebensgefahr bereits bei kleinen Mengen.",
+  tips: [
+    "❌ Nie kombinieren.",
+    "🚑 Notruf bei Problemen.",
+    "🧑‍🤝‍🧑 Sitter MUSS nüchtern sein."
+  ]
+},
+"Methadon+Tramadol": {
+  level: "danger",
+  description: "⚡️ Krampfgefahr und verstärkte atemdepressive Wirkung.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🚑 Bei Krampfanfällen/Problemen sofort Notruf.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren."
+  ]
+},
+"Methadon+Tilidin": {
+  level: "danger",
+  description: "⚡️ Zwei Opioide: Gefahr für Atemdepression, Übelkeit und Überdosierung.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🚑 Bei Problemen sofort Hilfe holen.",
+    "🧑‍🤝‍🧑 Sitter ratsam."
+  ]
+},
+"Methadon+MDMA": {
+  level: "danger",
+  description: "❤️ Herzbelastung, Gefahr für Kreislaufversagen und Serotonin-Syndrom.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🚑 Bei Unruhe/Fieber/Verwirrtheit sofort Notruf.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren."
+  ]
+},
+"Methadon+THC": {
+  level: "caution",
+  description: "😪 THC kann die sedierende Wirkung von Methadon verstärken – erhöhte Sturz- und Müdigkeitsgefahr.",
+  tips: [
+    "😴 Auf starke Müdigkeit achten.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚗 Kein Fahren/Maschinen bedienen."
+  ]
+},
+"Methadon+CBD": {
+  level: "caution",
+  description: "🌱 Kann zusätzliche Müdigkeit, niedrigen Blutdruck und Benommenheit auslösen.",
+  tips: [
+    "😴 Mit Müdigkeit rechnen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚗 Kein Autofahren."
+  ]
+},
+"Methadon+Ketamin": {
+  level: "danger",
+  description: "🌫️ Verstärkte Sedierung, Koordinationsprobleme und Gefahr für Atemdepression.",
+  tips: [
+    "🛏️ Nur in sicherer Umgebung.",
+    "🧑‍🤝‍🧑 Nicht allein konsumieren.",
+    "🚑 Hilfe holen bei Bewusstlosigkeit."
+  ]
+},
+"Methadon+Kratom": {
+  level: "danger",
+  description: "⚡️ Zwei Opioid-Agonisten: Gefahr für Atemdepression und Übelkeit.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Atemproblemen."
+  ]
+},
+"Methadon+Methamphetamin": {
+  level: "danger",
+  description: "⚡️ Gegensätzliche Wirkung, starke Belastung für Kreislauf, Psyche und Atmung.",
+  tips: [
+    "❌ Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Notruf bei Herzrasen, Unruhe, Atemnot."
+  ]
+},
+"Methadon+2C-B": {
+  level: "danger",
+  description: "💤 Beide wirken zentralnervös, verstärkte Müdigkeit, Atemdepression und Kontrollverlust möglich.",
+  tips: [
+    "🛏️ Nicht alleine konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Atemnot/Bewusstlosigkeit Notruf."
+  ]
+},
+"Methadon+HHC": {
+  level: "caution",
+  description: "😪 Sedierung, Benommenheit und Sturzgefahr erhöht.",
+  tips: [
+    "🛏️ In sicherer Umgebung bleiben.",
+    "🧑‍🤝‍🧑 Nicht allein konsumieren.",
+    "😴 Kein Auto fahren/Maschinen bedienen."
+  ]
+},
+"Methadon+LSD": {
+  level: "caution",
+  description: "🔄 Methadon kann die psychedelische Wirkung von LSD abmildern, macht aber müde.",
+  tips: [
+    "😴 Mit Müdigkeit rechnen.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "❌ Kein Nachlegen."
+  ]
+},
+"Methadon+Kokain": {
+  level: "danger",
+  description: "⚡️ Herzanstrengung und Atemdepression wechseln sich ab, erhöhtes Risiko für Kreislaufprobleme, Atemstillstand und Kontrollverlust.",
+  tips: [
+    "⏳ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Problemen."
+  ]
+},
+"Methadon+Pilze": {
+  level: "caution",
+  description: "⬇️ Methadon kann psychedelische Effekte abschwächen und macht müde.",
+  tips: [
+    "😴 Nur in sicherer Umgebung.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Wirkung einzeln beobachten."
+  ]
+},
+"Methadon+Salvia divinorum": {
+  level: "danger",
+  description: "🌪️ Wirkung schwer vorhersehbar, erhöhte Verwirrung und Kontrollverlust.",
+  tips: [
+    "❌ Nicht kombinieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei starker Verwirrung."
+  ]
+},
+"Methadon+Methadon": {
+  level: "deadly",
+  description: "☠️ Mehrfachdosierung/Redosing von Methadon erhöht das Risiko für Atemstillstand, Bewusstlosigkeit und Tod.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Bei Atemstillstand/Bewusstlosigkeit sofort Notruf."
   ]
 }
 };
