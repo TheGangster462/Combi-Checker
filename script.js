@@ -5109,6 +5109,168 @@ const kombis = {
     "🧑‍🤝‍🧑 Sitter ratsam.",
     "🚑 Hilfe holen bei schweren Nebenwirkungen."
   ]
+},
+"6-APB+Alkohol": {
+  level: "danger",
+  description: "🍷 Alkohol und 6-APB belasten Herz, Kreislauf und Psyche stark. Erhöhtes Risiko für Überhitzung, Kontrollverlust und Blackout.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "💧 Viel Wasser trinken, aber nicht übertreiben.",
+    "🚑 Bei Kreislaufproblemen oder Ohnmacht sofort Notruf."
+  ]
+},
+"6-APB+MDMA": {
+  level: "danger",
+  description: "⚡️ Beide wirken stark entaktogen und stimulierend. Extreme Belastung für Herz, Kreislauf und Psyche, hohe Gefahr für Serotoninsyndrom.",
+  tips: [
+    "❌ Nicht kombinieren!",
+    "🚑 Hilfe holen bei Überhitzung, Krämpfen oder Verwirrtheit.",
+    "🧑‍🤝‍🧑 Sitter unbedingt erforderlich."
+  ]
+},
+"6-APB+MDA": {
+  level: "danger",
+  description: "🔥 Beide Substanzen wirken stark empathogen/stimulierend. Sehr hohe Gefahr für Überhitzung, Krampfanfälle und Serotoninsyndrom.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "🚑 Notruf bei Überhitzung, Krämpfen oder Unwohlsein."
+  ]
+},
+"6-APB+2C-B": {
+  level: "danger",
+  description: "🎢 Sehr intensive psychedelische und empathogene Wirkung. Überforderung, Kontrollverlust und Kreislaufprobleme möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend erforderlich.",
+    "⚖️ Nur sehr niedrige Dosierungen.",
+    "🚑 Hilfe holen bei starker Überforderung."
+  ]
+},
+"6-APB+Ketamin": {
+  level: "danger",
+  description: "🌀 Dissoziation plus Stimulation – Gefahr für Realitätsverlust, Kreislaufprobleme und Psychosen.",
+  tips: [
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "⏳ Erst Wirkung einer Substanz abwarten.",
+    "🚑 Hilfe holen bei starker Verwirrung oder Kontrollverlust."
+  ]
+},
+"6-APB+THC": {
+  level: "caution",
+  description: "🍃 Kann Wirkung intensivieren, teils Euphorie, teils Angst und Paranoia verstärken.",
+  tips: [
+    "⚖️ Kleine Dosis THC nach 6-APB.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "😌 Bei Unruhe ruhige Umgebung aufsuchen."
+  ]
+},
+"6-APB+GHB": {
+  level: "danger",
+  description: "☠️ Massive Belastung für Kreislauf und Atmung, Lebensgefahr durch Atemstillstand.",
+  tips: [
+    "❌ Nicht kombinieren!",
+    "🚑 Notruf bei Bewusstlosigkeit.",
+    "🧑‍🤝‍🧑 Sitter muss nüchtern sein."
+  ]
+},
+"6-APB+Benzodiazepine": {
+  level: "danger",
+  description: "⚡️ Kombination kann zu starker Sedierung, Herzproblemen und Kreislaufversagen führen.",
+  tips: [
+    "🚫 Kombination vermeiden.",
+    "🧑‍🤝‍🧑 Nicht alleine konsumieren.",
+    "🚑 Notruf bei Symptomen."
+  ]
+},
+"6-APB+Mirtazapin": {
+  level: "caution",
+  description: "⚠️ Wirkung kann sich abschwächen, Müdigkeit und Kreislaufprobleme möglich.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "⏳ Wirkung beobachten.",
+    "🚑 Bei Problemen Hilfe holen."
+  ]
+},
+"6-APB+JWH-018": {
+  level: "danger",
+  description: "⚡️ Sehr unberechenbare Kombination. Risiko für Angst, Psychose, extreme Verwirrung und Herzprobleme.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter zwingend erforderlich.",
+    "🚑 Bei Herzrasen, starker Unruhe oder Kontrollverlust sofort Hilfe holen."
+  ]
+},
+"6-APB+4-MMC": {
+  level: "danger",
+  description: "💥 Sehr starke Stimulation, Überhitzungsgefahr und Kreislaufprobleme.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Herzrasen oder Überhitzung."
+  ]
+},
+"6-APB+3-MMC": {
+  level: "danger",
+  description: "💥 Extreme Belastung für Herz und Kreislauf, erhöhtes Risiko für Überhitzung, Krämpfe und Psychosen.",
+  tips: [
+    "❌ Nicht gemeinsam konsumieren.",
+    "🧑‍🤝‍🧑 Sitter ratsam.",
+    "🚑 Hilfe holen bei Symptomen."
+  ]
+},
+"6-APB+Methamphetamin": {
+  level: "deadly",
+  description: "☠️ Zwei extrem starke Stimulanzien! Sehr hohes Risiko für Herzinfarkt, Krampfanfälle, Psychosen, Kreislaufversagen.",
+  tips: [
+    "❌ Keinesfalls kombinieren!",
+    "🚑 Bei Brustschmerzen, Unruhe, Krämpfen sofort Notruf.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren."
+  ]
+},
+"6-APB+Kokain": {
+  level: "deadly",
+  description: "☠️ Zwei starke Upper: Sehr hohes Risiko für Herzinfarkt, Psychosen, Krampfanfälle, Überhitzung.",
+  tips: [
+    "❌ Kombination streng meiden!",
+    "🚑 Hilfe holen bei Symptomen.",
+    "🧑‍🤝‍🧑 Sitter ratsam."
+  ]
+},
+"6-APB+Amphetamin": {
+  level: "deadly",
+  description: "☠️ Beide wirken sehr stark stimulierend. Extrem hohe Gefahr für Kreislaufversagen, Herzinfarkt, Überhitzung, Psychose.",
+  tips: [
+    "❌ Nie kombinieren.",
+    "🚑 Hilfe holen bei Symptomen.",
+    "🧑‍🤝‍🧑 Nie alleine konsumieren."
+  ]
+},
+"6-APB+LSD": {
+  level: "danger",
+  description: "🌈 Massive psychedelische/empathogene Synergie. Sehr intensive, überwältigende Erfahrung, Risiko für Kontrollverlust.",
+  tips: [
+    "🧑‍🤝‍🧑 Trip-Sitter zwingend.",
+    "⚖️ Sehr niedrige Dosierungen.",
+    "⏳ Viel Zeit für Erholung einplanen."
+  ]
+},
+"6-APB+1V-LSD": {
+  level: "danger",
+  description: "🌈 1V-LSD verstärkt den psychedelischen Anteil von 6-APB stark. Risiko für Kontrollverlust, Angst/Panik.",
+  tips: [
+    "🧑‍🤝‍🧑 Sitter erforderlich.",
+    "⚖️ Kleine Dosierung, Wirkung abwarten.",
+    "🚑 Bei Kontrollverlust oder Angst Hilfe holen."
+  ]
+},
+"6-APB+6-APB": {
+  level: "danger",
+  description: "💥 Nachlegen erhöht Risiko für Überhitzung, Angst, Kreislaufprobleme und Serotoninsyndrom.",
+  tips: [
+    "❌ Kein Redosing.",
+    "🚑 Hilfe holen bei Nebenwirkungen.",
+    "🧑‍🤝‍🧑 Sitter ratsam."
+  ]
 }
 };
 
